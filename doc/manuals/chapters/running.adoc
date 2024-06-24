@@ -1,0 +1,179 @@
+== Running OsmoMSC
+
+The OsmoMSC executable (`osmo-msc`) offers the following command-line
+arguments:
+
+=== SYNOPSIS
+
+*osmo-msc* [-h|-V] [-d 'DBGMASK'] [-D] [-c 'CONFIGFILE'] [-s] [-T] [-e 'LOGLEVEL']
+
+=== OPTIONS
+
+*-h, --help*::
+	Print a short help message about the supported options
+*-V, --version*::
+	Print the compile-time version number of the program
+*-d, --debug 'DBGMASK','DBGLEVELS'*::
+	Set the log subsystems and levels for logging to stderr. This
+	has mostly been superseded by VTY-based logging configuration,
+	see <<logging>> for further information.
+*-D, --daemonize*::
+	Fork the process as a daemon into background.
+*-c, --config-file 'CONFIGFILE'*::
+	Specify the file and path name of the configuration file to be
+	used. If none is specified, use `osmo-msc.cfg` in the current
+	working directory.
+*-s, --disable-color*::
+	Disable colors for logging to stderr. This has mostly been
+	deprecated by VTY based logging configuration, see <<logging>>
+	for more information.
+*-T, --timestamp*::
+	Enable time-stamping of log messages to stderr. This has mostly
+	been deprecated by VTY based logging configuration, see
+	<<logging>> for more information.
+*-e, --log-level 'LOGLEVEL'*::
+	Set the global log level for logging to stderr. This has mostly
+	been deprecated by VTY based logging configuration, see
+	<<logging>> for more information.
+
+
+=== Multiple instances
+
+Running multiple instances of `osmo-msc` on the same computer is possible if all
+interfaces (VTY, CTRL) are separated using the appropriate configuration
+options. The IP based interfaces are binding to local host by default. In order
+to separate the processes, the user has to bind those services to specific but
+different IP addresses and/or ports.
+
+The VTY and the Control interface can be bound to IP addresses from the loopback
+address range, for example:
+
+----
+line vty
+ bind 127.0.0.2
+ctrl
+ bind 127.0.0.2
+----
+
+If external SMPP is enabled, you may bind it to a different interface using:
+
+----
+smpp
+ local-tcp-ip 10.23.42.1 2775
+----
+
+More on SMPP configuration in <<smpp-config-global>>.
+
+The external MNCC handler is a UNIX domain socket that is created when external MNCC handling is configured. A separate
+path must be used per osmo-msc instance:
+
+----
+msc
+ mncc external /tmp/mncc_socket
+----
+
+More on MNCC in <<mncc-external>>.
+
+The SGs interface by default listens on 0.0.0.0:29118. Configure a different IP and/or port for each osmo-msc instance.
+You may also want to configure different VLR names:
+
+----
+sgs
+ local-ip 127.0.0.1
+ local-port 29118
+ vlr-name vlr.example.net
+----
+
+For the following links, OsmoMSC acts as a client and does not listen/bind to a
+specific interface, and will hence not encounter conflicts for multiple instances
+running on the same interface:
+
+- The SCCP/M3UA links are established by OsmoMSC contacting an STP.
+- The GSUP link is established by OsmoMSC contacting an HLR.
+- The MGCP link is established by OsmoMSC contacting an MGW.
+
+
+=== Configure primary links
+
+==== Configure SCCP/M3UA to accept _A_ and _IuCS_ links
+
+OsmoMSC acts as client to contact an STP instance and establish an SCCP/M3UA
+link.
+
+An example configuration of OsmoMSC's SCCP link:
+
+----
+cs7 instance 0
+ point-code 0.23.1
+ asp asp-clnt-OsmoMSC-A-Iu 2905 0 m3ua
+  remote-ip 127.0.0.1
+  role asp
+  sctp-role client
+----
+
+This configuration is explained in detail in <<cs7_config>>.
+
+Note that _A_ and _IuCS_ may use different SCCP instances, if so desired:
+
+----
+cs7 instance 0
+ asp my-OsmoMSC-A 2905 0 m3ua
+  remote-ip 10.23.42.1
+  role asp
+  sctp-role client
+cs7 instance 1
+ asp my-OsmoMSC-Iu 2905 0 m3ua
+  remote-ip 10.23.42.2
+  role asp
+  sctp-role client
+msc
+ cs7-instance-a 0
+ cs7-instance-iu 1
+----
+
+==== Configure GSUP to reach the HLR
+
+OsmoMSC will assume a GSUP server (OsmoHLR) to run on the local host and the
+default GSUP port (4222). Contacting an HLR at a different IP address can be
+configured as follows:
+
+----
+hlr
+ ! IP address of the remote HLR:
+ remote-ip 10.23.42.1
+ ! default port is 4222, optionally configurable by:
+ remote-port 1234
+----
+
+==== Configure MGCP to connect to an MGW
+
+OsmoMSC uses a media gateway (typically OsmoMGW) to direct RTP streams. By
+default, an MGW is expected to receive MGCP requests on the IANA-registered
+default port for MGCP (2427) on local host (127.0.0.1).
+
+Here is an example configuration for a remote MGW:
+
+----
+network
+ mgw 0
+  remote-ip 10.9.8.7
+  remote-port 2427
+  reset-endpoint rtpbridge/* <1>
+----
+<1> The 'reset-endpoint' setting instructs the OsmoMGW to send a wildcarded
+DLCX to the media gateway. This helps to clear lingering calls from the
+media gateway when the OsmoMSC is restarted.
+
+OsmoMSC is also able to handle a pool of media gateways for load
+distribution. See also <<mgw_pooling>>.
+
+[NOTE]
+====
+Previous versions of OsmoMSC (1.9.0 and below) didn't have the 'mgw' VTY node and
+hence didn't support the MGW pooling feature. Therefore, historically the MGW
+related commands where placed under the `msc` VTY node. The MGW related commands
+under the  `msc` VTY are still parsed and used but its use is deprecated and
+hence discouraged in favour of the new `mgw` node. Writing the config to a file
+from within OsmoMSC will automatically convert the config to use the new `mgw`
+node.
+====

@@ -1,0 +1,130 @@
+AT_INIT
+AT_BANNER([Regression tests.])
+
+AT_SETUP([smpp])
+AT_KEYWORDS([smpp])
+AT_CHECK([test "$enable_smpp_test" != no || exit 77])
+cat $abs_srcdir/smpp/smpp_test.ok > expout
+cat $abs_srcdir/smpp/smpp_test.err > experr
+AT_CHECK([$abs_top_builddir/tests/smpp/smpp_test], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([sms_queue_test])
+AT_KEYWORDS([sms_queue_test])
+cat $abs_srcdir/sms_queue/sms_queue_test.ok > expout
+cat $abs_srcdir/sms_queue/sms_queue_test.err > experr
+AT_CHECK([$abs_top_builddir/tests/sms_queue/sms_queue_test], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([db_sms_test])
+AT_KEYWORDS([db_sms_test])
+cat $abs_srcdir/db_sms/db_sms_test.ok > expout
+cat $abs_srcdir/db_sms/db_sms_test.err > experr
+# swap the output from stderr and stdout so we can drop libdbi prints to stderr when trying to load wrong drivers
+AT_CHECK([$abs_top_builddir/tests/db_sms/db_sms_test 3>&1 1>&2 2>&3 | grep -v "Failed to load driver" | grep -v "cannot open shared object file"], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_no_authen])
+AT_KEYWORDS([msc_vlr_test_no_authen])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_no_authen.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_no_authen.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_no_authen], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_gsm_authen])
+AT_KEYWORDS([msc_vlr_test_gsm_authen])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_gsm_authen.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_gsm_authen.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_gsm_authen], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_gsm_ciph])
+AT_KEYWORDS([msc_vlr_test_gsm_ciph])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_gsm_ciph.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_gsm_ciph.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_gsm_ciph], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_umts_authen])
+AT_KEYWORDS([msc_vlr_test_umts_authen])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_umts_authen.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_umts_authen.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_umts_authen], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_authen_reuse])
+AT_KEYWORDS([msc_vlr_test_authen_reuse])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_authen_reuse.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_authen_reuse.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_authen_reuse], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_hlr_reject])
+AT_KEYWORDS([msc_vlr_test_hlr_reject])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_hlr_reject.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_hlr_reject.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_hlr_reject], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_hlr_timeout])
+AT_KEYWORDS([msc_vlr_test_hlr_timeout])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_hlr_timeout.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_hlr_timeout.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_hlr_timeout], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_ms_timeout])
+AT_KEYWORDS([msc_vlr_test_ms_timeout])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_ms_timeout.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_ms_timeout.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_ms_timeout], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_reject_concurrency])
+AT_KEYWORDS([msc_vlr_test_reject_concurrency])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_reject_concurrency.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_reject_concurrency.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_reject_concurrency], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_call])
+AT_KEYWORDS([msc_vlr_test_call])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_call.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_call.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_call], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_rest])
+AT_KEYWORDS([msc_vlr_test_rest])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_rest.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_rest.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_rest], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([msc_vlr_test_ss])
+AT_KEYWORDS([msc_vlr_test_ss])
+cat $abs_srcdir/msc_vlr/msc_vlr_test_ss.ok > expout
+cat $abs_srcdir/msc_vlr/msc_vlr_test_ss.err > experr
+AT_CHECK([$abs_top_builddir/tests/msc_vlr/msc_vlr_test_ss], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([sdp_msg_test])
+AT_KEYWORDS([sdp_msg_test])
+cat $abs_srcdir/sdp_msg/sdp_msg_test.ok > expout
+cat $abs_srcdir/sdp_msg/sdp_msg_test.err > experr
+AT_CHECK([$abs_top_builddir/tests/sdp_msg/sdp_msg_test], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([mncc_test])
+AT_KEYWORDS([mncc_test])
+cat $abs_srcdir/mncc/mncc_test.ok > expout
+cat $abs_srcdir/mncc/mncc_test.err > experr
+AT_CHECK([$abs_top_builddir/tests/mncc/mncc_test], [], [expout], [experr])
+AT_CLEANUP
+
+AT_SETUP([csd_test])
+AT_KEYWORDS([csd_test])
+cat $abs_srcdir/csd/csd_test.ok > expout
+cat $abs_srcdir/csd/csd_test.err > experr
+AT_CHECK([$abs_top_builddir/tests/csd/csd_test], [], [expout], [experr])
+AT_CLEANUP

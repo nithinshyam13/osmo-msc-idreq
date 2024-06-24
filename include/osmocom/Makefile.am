@@ -1,0 +1,4 @@
+SUBDIRS = \
+	msc \
+	smpp \
+	$(NULL)

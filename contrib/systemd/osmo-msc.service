@@ -1,0 +1,19 @@
+[Unit]
+Description=Osmocom Mobile Switching Center (MSC)
+Wants=osmo-hlr.service
+Wants=osmo-mgw.service
+After=osmo-hlr.service
+After=osmo-hnbgw.service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+StateDirectory=osmocom
+WorkingDirectory=%S/osmocom
+ExecStart=/usr/bin/osmo-msc -c /etc/osmocom/osmo-msc.cfg
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
