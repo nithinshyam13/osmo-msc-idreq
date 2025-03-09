@@ -1,3 +1,11 @@
+MM Identity Request
+===================
+The modifications allow a user to query a connected MS with an Mobility Management Identity Request directly from the OsmoMSC termminal using command id_req.
+A picture demo can be seen below. We are querying a connected MS with MSISDN 37 for its IMEISV.
+![image](https://github.com/user-attachments/assets/12764dd4-2155-484f-ace9-e0cac8d351ad)
+
+
+
 osmo-msc - Osmocom MSC Implementation
 =====================================
 
