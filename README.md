@@ -5,6 +5,8 @@ A picture demo can be seen below. We are querying a connected MS with MSISDN 37 
 
 ![image](https://github.com/user-attachments/assets/12764dd4-2155-484f-ace9-e0cac8d351ad)
 
+See osmocom wiki for build instructions.
+
 OpenBTS
 =======
 The same can be achieved in OpenBTS. See demo picture below. More here: [nithinshyam13/openbts-idreq](https://github.com/nithinshyam13/openbts-idreq)
