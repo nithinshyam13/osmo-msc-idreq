@@ -5,6 +5,11 @@ A picture demo can be seen below. We are querying a connected MS with MSISDN 37 
 
 ![image](https://github.com/user-attachments/assets/12764dd4-2155-484f-ace9-e0cac8d351ad)
 
+OpenBTS
+=======
+The same can be achieved in OpenBTS. See demo picture below. More here: [nithinshyam13/openbts-idreq](https://github.com/nithinshyam13/openbts-idreq)
+
+![demo](https://github.com/user-attachments/assets/e1b01a06-3bf4-44cb-befd-73ecdf2c34ee)
 
 
 osmo-msc - Osmocom MSC Implementation
