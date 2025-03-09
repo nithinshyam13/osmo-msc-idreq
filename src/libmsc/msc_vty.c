@@ -57,6 +57,7 @@
 #include <osmocom/msc/db.h>
 #include <osmocom/msc/sms_queue.h>
 #include <osmocom/msc/silent_call.h>
+#include <osmocom/msc/id_req.h>
 #include <osmocom/msc/gsm_04_80.h>
 #include <osmocom/msc/gsm_04_14.h>
 #include <osmocom/msc/signal.h>
@@ -1287,6 +1288,7 @@ static struct vlr_subscr *get_vsub_by_argv(struct gsm_network *gsmnet,
 	return NULL;
 }
 #define SUBSCR_TYPES "(msisdn|extension|imsi|tmsi|id)"
+#define MI_TYPES "(imsi|imei|imeisv|tmsi)"
 #define SUBSCR_HELP "Operations on a Subscriber\n"			\
 	"Identify subscriber by MSISDN (phone number)\n"		\
 	"Legacy alias for 'msisdn'\n"		\
@@ -2015,6 +2017,48 @@ static int config_write_hlr(struct vty *vty)
 	return CMD_SUCCESS;
 }
 
+
+// ns13
+DEFUN(subscriber_id_req,
+      subscriber_id_req_cmd,
+      "subscriber " SUBSCR_TYPES " ID id_req " MI_TYPES,
+	SUBSCR_HELP "Send GSM 04.08 IDENTITY REQUEST\n" "Fetch an ID (GSM 04.08 10.5.3.4) from MS\n")
+{	
+
+	// if(argc < 3) {
+	// 	vty_out(vty, "%% ERROR: Check arguments %s", VTY_NEWLINE);
+	// 	return CMD_WARNING;
+	// }
+	int rc, id_type;
+	vty_out(vty, "id_req inputs: %s, %s, %s%s", argv[0], argv[1], argv[2], VTY_NEWLINE);
+	
+	// get vsub ctxt
+	struct vlr_subscr *vsub = get_vsub_by_argv(gsmnet, argv[0], argv[1]);
+	if (!vsub) {
+		vty_out(vty, "%% No subscriber found for %s %s%s",
+			argv[0], argv[1], VTY_NEWLINE);
+		return CMD_WARNING;
+	}
+
+	// send the ID REQ
+	if (!strcmp(argv[2], "imsi"))
+		id_type = GSM_MI_TYPE_IMSI;
+	else if (!strcmp(argv[2], "imei"))
+		id_type = GSM_MI_TYPE_IMEI;
+	else if (!strcmp(argv[2], "imeisv"))
+		id_type = GSM_MI_TYPE_IMEISV;
+	else if (!strcmp(argv[2], "tmsi"))
+		id_type = GSM_MI_TYPE_TMSI;
+
+	rc = gsm_id_req_send(vsub, id_type, vty);
+
+	
+	vlr_subscr_put(vsub, VSUB_USE_VTY);
+	return rc ? CMD_WARNING : CMD_SUCCESS;
+}
+
+
+
 void msc_vty_init(struct gsm_network *msc_network)
 {
 	OSMO_ASSERT(gsmnet == NULL);
@@ -2110,6 +2154,10 @@ void msc_vty_init(struct gsm_network *msc_network)
 	install_element_ve(&subscriber_paging_cmd);
 	install_element_ve(&show_stats_cmd);
 	install_element_ve(&logging_fltr_imsi_cmd);
+
+	// ns13
+	install_element_ve(&subscriber_id_req_cmd);
+
 
 	install_element(ENABLE_NODE, &ena_subscr_expire_cmd);
 	install_element(ENABLE_NODE, &subscriber_send_pending_sms_cmd);

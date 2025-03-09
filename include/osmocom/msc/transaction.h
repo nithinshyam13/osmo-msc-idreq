@@ -48,6 +48,7 @@ enum trans_type {
 	TRANS_CC = GSM48_PDISC_CC,
 	TRANS_SMS = GSM48_PDISC_SMS,
 	TRANS_USSD = GSM48_PDISC_NC_SS,
+	TRANS_ID_REQ = GSM48_PDISC_MM,
 	TRANS_SILENT_CALL,
 };
 
@@ -167,6 +168,10 @@ struct gsm_trans {
 			struct osmo_sockaddr_str rtp_cn;
 			struct vty *from_vty;
 		} silent_call;
+		struct {
+			int id_type;
+			struct vty *from_vty;
+		} id_req;
 	};
 
 	struct {
@@ -209,6 +214,8 @@ static inline int trans_log_subsys(enum trans_type type)
 	case TRANS_CC:
 	case TRANS_SILENT_CALL:
 		return DCC;
+	case TRANS_ID_REQ:
+		return DMM;
 	case TRANS_SMS:
 		return DLSMS;
 	case TRANS_USSD:

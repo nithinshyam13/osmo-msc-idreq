@@ -1,0 +1,2341 @@
+ran_msg_iu.o: ran_msg_iu.c /usr/include/stdc-predef.h \
+ /usr/include/asn1c/asn1helpers.h /usr/include/unistd.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/timesize.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/time64.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/asn1c/asn_system.h /usr/include/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/stdlib.h \
+ /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endianness.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/socket.h \
+ /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+ /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+ /usr/include/x86_64-linux-gnu/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+ /usr/include/x86_64-linux-gnu/bits/in.h /usr/include/asn1c/BIT_STRING.h \
+ /usr/include/asn1c/OCTET_STRING.h /usr/include/asn1c/asn_application.h \
+ /usr/include/asn1c/asn_codecs.h /usr/include/asn1c/constr_TYPE.h \
+ /usr/include/asn1c/ber_tlv_length.h /usr/include/asn1c/ber_tlv_tag.h \
+ /usr/include/asn1c/ber_decoder.h /usr/include/asn1c/der_encoder.h \
+ /usr/include/asn1c/xer_decoder.h /usr/include/asn1c/xer_encoder.h \
+ /usr/include/asn1c/per_decoder.h /usr/include/asn1c/per_support.h \
+ /usr/include/asn1c/asn_system.h /usr/include/asn1c/per_encoder.h \
+ /usr/include/asn1c/constraints.h /usr/include/asn1c/OCTET_STRING.h \
+ /usr/include/osmocom/core/prim.h /usr/include/osmocom/core/msgb.h \
+ /usr/include/osmocom/core/linuxlist.h \
+ /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
+ /usr/include/osmocom/core/utils.h /usr/include/osmocom/core/backtrace.h \
+ /usr/include/osmocom/core/talloc.h /usr/include/talloc.h \
+ /usr/include/osmocom/core/panic.h /usr/include/osmocom/core/defs.h \
+ /usr/include/osmocom/core/bits.h /usr/include/osmocom/core/bit16gen.h \
+ /usr/include/osmocom/core/bit32gen.h \
+ /usr/include/osmocom/core/bit64gen.h \
+ /usr/include/osmocom/core/byteswap.h /usr/include/osmocom/core/endian.h \
+ /usr/include/osmocom/crypt/auth.h \
+ /usr/include/osmocom/crypt/utran_cipher.h \
+ /usr/include/osmocom/gsm/gsm48.h /usr/include/osmocom/gsm/tlv.h \
+ /usr/include/osmocom/gsm/protocol/gsm_04_08.h \
+ /usr/include/osmocom/gsm/gsm_utils.h \
+ /usr/include/osmocom/gsm/protocol/gsm_23_003.h \
+ /usr/include/osmocom/gsm/gsm48_ie.h /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/osmocom/gsm/mncc.h /usr/include/osmocom/gsm/gsm23003.h \
+ /usr/include/osmocom/ranap/ranap_common_cn.h \
+ /usr/include/osmocom/ranap/ranap_common.h \
+ /usr/include/asn1c/asn_application.h \
+ /usr/include/osmocom/ranap/RANAP_APN.h /usr/include/asn1c/asn_internal.h \
+ /usr/include/asn1c/asn_application.h /usr/include/assert.h \
+ /usr/include/osmocom/ranap/RANAP_AccuracyFulfilmentIndicator.h \
+ /usr/include/asn1c/NativeEnumerated.h /usr/include/asn1c/NativeInteger.h \
+ /usr/include/asn1c/INTEGER.h /usr/include/asn1c/asn_codecs_prim.h \
+ /usr/include/osmocom/ranap/RANAP_AllocationOrRetentionPriority.h \
+ /usr/include/osmocom/ranap/RANAP_PriorityLevel.h \
+ /usr/include/osmocom/ranap/RANAP_Pre-emptionCapability.h \
+ /usr/include/osmocom/ranap/RANAP_Pre-emptionVulnerability.h \
+ /usr/include/osmocom/ranap/RANAP_QueuingAllowed.h \
+ /usr/include/osmocom/ranap/RANAP_IE-Extensions.h \
+ /usr/include/osmocom/ranap/RANAP_IE.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolIE-ID.h \
+ /usr/include/osmocom/ranap/RANAP_Criticality.h /usr/include/asn1c/ANY.h \
+ /usr/include/asn1c/constr_SEQUENCE.h \
+ /usr/include/asn1c/asn_SEQUENCE_OF.h /usr/include/asn1c/asn_SET_OF.h \
+ /usr/include/asn1c/constr_SEQUENCE_OF.h \
+ /usr/include/asn1c/constr_SET_OF.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedGuaranteedBitrateInf.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrateType.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedGuaranteedBitrates.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedGuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_ExtendedGuaranteedBitrate.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedMaxBitrateInf.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrateType.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedMaxBitrates.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedMaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_ExtendedMaxBitrate.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrateInf.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrates.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_GuaranteedBitrate.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrateInf.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrates.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_MaxBitrate.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedGuaranteedBitrateInf.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedGuaranteedBitrates.h \
+ /usr/include/osmocom/ranap/RANAP_SupportedRAB-ParameterBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_SupportedBitrate.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedMaxBitrateInf.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedMaxBitrates.h \
+ /usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_AlternativeRABConfigurationRequest.h \
+ /usr/include/osmocom/ranap/RANAP_AreaIdentity.h \
+ /usr/include/osmocom/ranap/RANAP_SAI.h \
+ /usr/include/osmocom/ranap/RANAP_PLMNidentity.h \
+ /usr/include/asn1c/constr_CHOICE.h \
+ /usr/include/osmocom/ranap/RANAP_LAC.h \
+ /usr/include/osmocom/ranap/RANAP_SAC.h \
+ /usr/include/osmocom/ranap/RANAP_GeographicalArea.h \
+ /usr/include/osmocom/ranap/RANAP_GA-Point.h \
+ /usr/include/osmocom/ranap/RANAP_GeographicalCoordinates.h \
+ /usr/include/osmocom/ranap/RANAP_GA-PointWithUnCertainty.h \
+ /usr/include/osmocom/ranap/RANAP_GA-Polygon.h \
+ /usr/include/osmocom/ranap/RANAP_GA-Polygon-Value.h \
+ /usr/include/osmocom/ranap/RANAP_GA-PointWithUnCertaintyEllipse.h \
+ /usr/include/osmocom/ranap/RANAP_GA-UncertaintyEllipse.h \
+ /usr/include/osmocom/ranap/RANAP_GA-PointWithAltitude.h \
+ /usr/include/osmocom/ranap/RANAP_GA-AltitudeAndDirection.h \
+ /usr/include/osmocom/ranap/RANAP_GA-PointWithAltitudeAndUncertaintyEllipsoid.h \
+ /usr/include/osmocom/ranap/RANAP_GA-EllipsoidArc.h \
+ /usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-ExtendedGuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-ExtendedMaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-GuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-MaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_AuthorisedPLMNs.h \
+ /usr/include/osmocom/ranap/RANAP_AuthorisedPLMNs-Value.h \
+ /usr/include/osmocom/ranap/RANAP_AuthorisedSNAs.h \
+ /usr/include/osmocom/ranap/RANAP_SNAC.h \
+ /usr/include/osmocom/ranap/RANAP_BindingID.h \
+ /usr/include/osmocom/ranap/RANAP_BroadcastAssistanceDataDecipheringKeys.h \
+ /usr/include/asn1c/BIT_STRING.h /usr/include/osmocom/ranap/RANAP_CGI.h \
+ /usr/include/osmocom/ranap/RANAP_CI.h \
+ /usr/include/osmocom/ranap/RANAP_CN-DeactivateTrace.h \
+ /usr/include/osmocom/ranap/RANAP_CN-DomainIndicator.h \
+ /usr/include/osmocom/ranap/RANAP_CN-ID.h \
+ /usr/include/osmocom/ranap/RANAP_CN-InvokeTrace.h \
+ /usr/include/osmocom/ranap/RANAP_CNMBMSLinkingInformation.h \
+ /usr/include/osmocom/ranap/RANAP_JoinedMBMSBearerService-IEs.h \
+ /usr/include/osmocom/ranap/RANAP_JoinedMBMSBearerService-IEs-Value.h \
+ /usr/include/osmocom/ranap/RANAP_TMGI.h \
+ /usr/include/osmocom/ranap/RANAP_MBMS-PTP-RAB-ID.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolExtensionContainer.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolExtensionField.h \
+ /usr/include/osmocom/ranap/RANAP_CSFB-Information.h \
+ /usr/include/osmocom/ranap/RANAP_CSG-Id-List.h \
+ /usr/include/osmocom/ranap/RANAP_CSG-Id.h \
+ /usr/include/osmocom/ranap/RANAP_CSG-Membership-Status.h \
+ /usr/include/osmocom/ranap/RANAP_Cause.h \
+ /usr/include/osmocom/ranap/RANAP_CauseRadioNetwork.h \
+ /usr/include/osmocom/ranap/RANAP_CauseTransmissionNetwork.h \
+ /usr/include/osmocom/ranap/RANAP_CauseNAS.h \
+ /usr/include/osmocom/ranap/RANAP_CauseProtocol.h \
+ /usr/include/osmocom/ranap/RANAP_CauseMisc.h \
+ /usr/include/osmocom/ranap/RANAP_CauseNon-Standard.h \
+ /usr/include/osmocom/ranap/RANAP_CauseRadioNetworkExtension.h \
+ /usr/include/osmocom/ranap/RANAP_Cell-Access-Mode.h \
+ /usr/include/osmocom/ranap/RANAP_Cell-Capacity-Class-Value.h \
+ /usr/include/osmocom/ranap/RANAP_Cell-Id.h \
+ /usr/include/osmocom/ranap/RANAP_CellBased.h \
+ /usr/include/osmocom/ranap/RANAP_CellIdList.h \
+ /usr/include/osmocom/ranap/RANAP_CellLoadInformation.h \
+ /usr/include/osmocom/ranap/RANAP_LoadValue.h \
+ /usr/include/osmocom/ranap/RANAP_RTLoadValue.h \
+ /usr/include/osmocom/ranap/RANAP_NRTLoadInformationValue.h \
+ /usr/include/osmocom/ranap/RANAP_CellLoadInformationGroup.h \
+ /usr/include/osmocom/ranap/RANAP_SourceCellID.h \
+ /usr/include/osmocom/ranap/RANAP_SourceUTRANCellID.h \
+ /usr/include/osmocom/ranap/RANAP_TargetCellId.h \
+ /usr/include/osmocom/ranap/RANAP_CellType.h \
+ /usr/include/osmocom/ranap/RANAP_ChosenEncryptionAlgorithm.h \
+ /usr/include/osmocom/ranap/RANAP_EncryptionAlgorithm.h \
+ /usr/include/osmocom/ranap/RANAP_ChosenIntegrityProtectionAlgorithm.h \
+ /usr/include/osmocom/ranap/RANAP_IntegrityProtectionAlgorithm.h \
+ /usr/include/osmocom/ranap/RANAP_ClassmarkInformation2.h \
+ /usr/include/osmocom/ranap/RANAP_ClassmarkInformation3.h \
+ /usr/include/osmocom/ranap/RANAP_ClientType.h \
+ /usr/include/osmocom/ranap/RANAP_CommonID.h \
+ /usr/include/osmocom/ranap/RANAP_Correlation-ID.h \
+ /usr/include/osmocom/ranap/RANAP_CriticalityDiagnostics-IE-List.h \
+ /usr/include/osmocom/ranap/RANAP_CriticalityDiagnostics-IE-List-Value.h \
+ /usr/include/osmocom/ranap/RANAP_RepetitionNumber0.h \
+ /usr/include/osmocom/ranap/RANAP_CriticalityDiagnostics.h \
+ /usr/include/osmocom/ranap/RANAP_ProcedureCode.h \
+ /usr/include/osmocom/ranap/RANAP_TriggeringMessage.h \
+ /usr/include/osmocom/ranap/RANAP_D-RNTI.h \
+ /usr/include/osmocom/ranap/RANAP_DCH-ID.h \
+ /usr/include/osmocom/ranap/RANAP_DL-GTP-PDU-SequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_DL-N-PDU-SequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_DRX-CycleLengthCoefficient.h \
+ /usr/include/osmocom/ranap/RANAP_DSCH-ID.h \
+ /usr/include/osmocom/ranap/RANAP_DataPDUType.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeList.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeList-Value.h \
+ /usr/include/osmocom/ranap/RANAP_UnsuccessfullyTransmittedDataVolume.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeReference.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeReport.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeReportList.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeReportRequest.h \
+ /usr/include/osmocom/ranap/RANAP_DataVolumeReportingIndication.h \
+ /usr/include/osmocom/ranap/RANAP_DeliveryOfErroneousSDU.h \
+ /usr/include/osmocom/ranap/RANAP_DeliveryOrder.h \
+ /usr/include/osmocom/ranap/RANAP_DeltaRAListofIdleModeUEs.h \
+ /usr/include/osmocom/ranap/RANAP_NewRAListofIdleModeUEs.h \
+ /usr/include/osmocom/ranap/RANAP_RAC.h \
+ /usr/include/osmocom/ranap/RANAP_RAListwithNoIdleModeUEsAnyMore.h \
+ /usr/include/osmocom/ranap/RANAP_DirectInformationTransfer.h \
+ /usr/include/osmocom/ranap/RANAP_DirectReportingIndicator.h \
+ /usr/include/osmocom/ranap/RANAP_DirectTransfer-IE-ContainerList.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolIE-Container.h \
+ /usr/include/osmocom/ranap/RANAP_DirectTransfer.h \
+ /usr/include/osmocom/ranap/RANAP_DirectTransferInformationItem-RANAP-RelocInf.h \
+ /usr/include/osmocom/ranap/RANAP_NAS-PDU.h \
+ /usr/include/osmocom/ranap/RANAP_SAPI.h \
+ /usr/include/osmocom/ranap/RANAP_E-DCH-MAC-d-Flow-ID.h \
+ /usr/include/osmocom/ranap/RANAP_E-UTRAN-Service-Handover.h \
+ /usr/include/osmocom/ranap/RANAP_EARFCN-Extended.h \
+ /usr/include/osmocom/ranap/RANAP_ENB-ID.h \
+ /usr/include/osmocom/ranap/RANAP_EUTRANFrequencies.h \
+ /usr/include/osmocom/ranap/RANAP_EUTRANFrequencies-Value.h \
+ /usr/include/osmocom/ranap/RANAP_MeasBand.h \
+ /usr/include/osmocom/ranap/RANAP_EncryptionInformation.h \
+ /usr/include/osmocom/ranap/RANAP_PermittedEncryptionAlgorithms.h \
+ /usr/include/osmocom/ranap/RANAP_EncryptionKey.h \
+ /usr/include/osmocom/ranap/RANAP_End-Of-CSFB.h \
+ /usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteConfirm.h \
+ /usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteFailure.h \
+ /usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteRequest.h \
+ /usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteResponse.h \
+ /usr/include/osmocom/ranap/RANAP_EquipmentsToBeTraced.h \
+ /usr/include/osmocom/ranap/RANAP_IMEIList.h \
+ /usr/include/osmocom/ranap/RANAP_IMEI.h \
+ /usr/include/osmocom/ranap/RANAP_IMEISVList.h \
+ /usr/include/osmocom/ranap/RANAP_IMEISV.h \
+ /usr/include/osmocom/ranap/RANAP_IMEIGroup.h \
+ /usr/include/osmocom/ranap/RANAP_IMEISVGroup.h \
+ /usr/include/osmocom/ranap/RANAP_ErrorIndication.h \
+ /usr/include/osmocom/ranap/RANAP_Event.h \
+ /usr/include/osmocom/ranap/RANAP_Event1F-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_MeasurementQuantity.h \
+ /usr/include/osmocom/ranap/RANAP_Event1I-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_ExtendedRNC-ID.h \
+ /usr/include/osmocom/ranap/RANAP_ForwardSRNS-Context.h \
+ /usr/include/osmocom/ranap/RANAP_ForwardingIndication.h \
+ /usr/include/osmocom/ranap/RANAP_FrameSequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_FrequenceLayerConvergenceFlag.h \
+ /usr/include/osmocom/ranap/RANAP_GANSS-PositioningDataSet.h \
+ /usr/include/osmocom/ranap/RANAP_GANSS-PositioningMethodAndUsage.h \
+ /usr/include/osmocom/ranap/RANAP_GERAN-BSC-Container.h \
+ /usr/include/osmocom/ranap/RANAP_GERAN-Cell-ID.h \
+ /usr/include/osmocom/ranap/RANAP_LAI.h \
+ /usr/include/osmocom/ranap/RANAP_GERAN-Classmark.h \
+ /usr/include/osmocom/ranap/RANAP_GERAN-Iumode-RAB-Failed-RABAssgntResponse-Item.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ID.h \
+ /usr/include/osmocom/ranap/RANAP_GERAN-Iumode-RAB-Failed-RABAssgntResponse-List.h \
+ /usr/include/osmocom/ranap/RANAP_GTP-TEI.h \
+ /usr/include/osmocom/ranap/RANAP_GlobalCN-ID.h \
+ /usr/include/osmocom/ranap/RANAP_GlobalRNC-ID.h \
+ /usr/include/osmocom/ranap/RANAP_RNC-ID.h \
+ /usr/include/osmocom/ranap/RANAP_HS-DSCH-MAC-d-Flow-ID.h \
+ /usr/include/osmocom/ranap/RANAP_HigherBitratesThan16MbpsFlag.h \
+ /usr/include/osmocom/ranap/RANAP_HorizontalSpeedAndBearing.h \
+ /usr/include/osmocom/ranap/RANAP_HorizontalVelocity.h \
+ /usr/include/osmocom/ranap/RANAP_HorizontalVelocityWithUncertainty.h \
+ /usr/include/osmocom/ranap/RANAP_HorizontalWithVerticalVelocity.h \
+ /usr/include/osmocom/ranap/RANAP_VerticalVelocity.h \
+ /usr/include/osmocom/ranap/RANAP_VerticalSpeedDirection.h \
+ /usr/include/osmocom/ranap/RANAP_HorizontalWithVerticalVelocityAndUncertainty.h \
+ /usr/include/osmocom/ranap/RANAP_IMSI.h \
+ /usr/include/osmocom/ranap/RANAP_IPMulticastAddress.h \
+ /usr/include/osmocom/ranap/RANAP_IRAT-Measurement-Configuration.h \
+ /usr/include/osmocom/ranap/RANAP_IRATmeasurementParameters.h \
+ /usr/include/osmocom/ranap/RANAP_ImmediateMDT.h \
+ /usr/include/osmocom/ranap/RANAP_MeasurementsToActivate.h \
+ /usr/include/osmocom/ranap/RANAP_M1Report.h \
+ /usr/include/osmocom/ranap/RANAP_MDT-Report-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_ReportInterval.h \
+ /usr/include/osmocom/ranap/RANAP_ReportAmount.h \
+ /usr/include/osmocom/ranap/RANAP_M2Report.h \
+ /usr/include/osmocom/ranap/RANAP_IncludeVelocity.h \
+ /usr/include/osmocom/ranap/RANAP_InformationExchangeID.h \
+ /usr/include/osmocom/ranap/RANAP_InformationExchangeType.h \
+ /usr/include/osmocom/ranap/RANAP_InformationRequestType.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSIPMulticastAddressandAPNRequest.h \
+ /usr/include/osmocom/ranap/RANAP_PermanentNAS-UE-ID.h \
+ /usr/include/osmocom/ranap/RANAP_InformationRequested.h \
+ /usr/include/osmocom/ranap/RANAP_RequestedMBMSIPMulticastAddressandAPNRequest.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSIPMulticastAddressandAPNlist.h \
+ /usr/include/osmocom/ranap/RANAP_RequestedMulticastServiceList.h \
+ /usr/include/osmocom/ranap/RANAP_InformationTransferConfirmation.h \
+ /usr/include/osmocom/ranap/RANAP_InformationTransferFailure.h \
+ /usr/include/osmocom/ranap/RANAP_InformationTransferID.h \
+ /usr/include/osmocom/ranap/RANAP_InformationTransferIndication.h \
+ /usr/include/osmocom/ranap/RANAP_InformationTransferType.h \
+ /usr/include/osmocom/ranap/RANAP_RNCTraceInformation.h \
+ /usr/include/osmocom/ranap/RANAP_TraceReference.h \
+ /usr/include/osmocom/ranap/RANAP_InitialUE-Message.h \
+ /usr/include/osmocom/ranap/RANAP_InitiatingMessage.h \
+ /usr/include/osmocom/ranap/RANAP_IntegrityProtectionInformation.h \
+ /usr/include/osmocom/ranap/RANAP_PermittedIntegrityProtectionAlgorithms.h \
+ /usr/include/osmocom/ranap/RANAP_IntegrityProtectionKey.h \
+ /usr/include/osmocom/ranap/RANAP_InterSystemInformation-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_InterSystemInformationTransferType.h \
+ /usr/include/osmocom/ranap/RANAP_RIM-Transfer.h \
+ /usr/include/osmocom/ranap/RANAP_RIMInformation.h \
+ /usr/include/osmocom/ranap/RANAP_RIMRoutingAddress.h \
+ /usr/include/osmocom/ranap/RANAP_TargetRNC-ID.h \
+ /usr/include/osmocom/ranap/RANAP_TargetENB-ID.h \
+ /usr/include/osmocom/ranap/RANAP_TAI.h \
+ /usr/include/osmocom/ranap/RANAP_TAC.h \
+ /usr/include/osmocom/ranap/RANAP_InterfacesToTraceItem.h \
+ /usr/include/osmocom/ranap/RANAP_Iu-ReleaseCommand.h \
+ /usr/include/osmocom/ranap/RANAP_Iu-ReleaseComplete.h \
+ /usr/include/osmocom/ranap/RANAP_Iu-ReleaseRequest.h \
+ /usr/include/osmocom/ranap/RANAP_IuSigConId-IE-ContainerList.h \
+ /usr/include/osmocom/ranap/RANAP_IuSignallingConnectionIdentifier.h \
+ /usr/include/osmocom/ranap/RANAP_IuTransportAssociation.h \
+ /usr/include/osmocom/ranap/RANAP_KeyStatus.h \
+ /usr/include/osmocom/ranap/RANAP_L3-Information.h \
+ /usr/include/osmocom/ranap/RANAP_LA-LIST.h \
+ /usr/include/osmocom/ranap/RANAP_LA-LIST-Value.h \
+ /usr/include/osmocom/ranap/RANAP_ListOF-SNAs.h \
+ /usr/include/osmocom/ranap/RANAP_LABased.h \
+ /usr/include/osmocom/ranap/RANAP_LAI-List.h \
+ /usr/include/osmocom/ranap/RANAP_LAListofIdleModeUEs.h \
+ /usr/include/osmocom/ranap/RANAP_LHN-ID.h \
+ /usr/include/osmocom/ranap/RANAP_LastKnownServiceArea.h \
+ /usr/include/osmocom/ranap/RANAP_LastVisitedUTRANCell-Item.h \
+ /usr/include/osmocom/ranap/RANAP_UTRAN-CellID.h \
+ /usr/include/osmocom/ranap/RANAP_Time-UE-StayedInCell.h \
+ /usr/include/osmocom/ranap/RANAP_LeftMBMSBearerService-IEs.h \
+ /usr/include/osmocom/ranap/RANAP_LeftMBMSBearerService-IEs-Value.h \
+ /usr/include/osmocom/ranap/RANAP_Links-to-log.h \
+ /usr/include/osmocom/ranap/RANAP_ListOfInterfacesToTrace.h \
+ /usr/include/osmocom/ranap/RANAP_LocationRelatedDataFailure.h \
+ /usr/include/osmocom/ranap/RANAP_LocationRelatedDataRequest.h \
+ /usr/include/osmocom/ranap/RANAP_LocationRelatedDataRequestType.h \
+ /usr/include/osmocom/ranap/RANAP_RequestedLocationRelatedDataType.h \
+ /usr/include/osmocom/ranap/RANAP_RequestedGPSAssistanceData.h \
+ /usr/include/osmocom/ranap/RANAP_LocationRelatedDataRequestTypeSpecificToGERANIuMode.h \
+ /usr/include/osmocom/ranap/RANAP_LocationRelatedDataResponse.h \
+ /usr/include/osmocom/ranap/RANAP_LocationReport.h \
+ /usr/include/osmocom/ranap/RANAP_LocationReportingControl.h \
+ /usr/include/osmocom/ranap/RANAP_LocationReportingTransferInformation.h \
+ /usr/include/osmocom/ranap/RANAP_ReportChangeOfSAI.h \
+ /usr/include/osmocom/ranap/RANAP_PeriodicReportingIndicator.h \
+ /usr/include/osmocom/ranap/RANAP_VerticalAccuracyCode.h \
+ /usr/include/osmocom/ranap/RANAP_PositioningPriority.h \
+ /usr/include/osmocom/ranap/RANAP_ResponseTime.h \
+ /usr/include/osmocom/ranap/RANAP_PeriodicLocationInfo.h \
+ /usr/include/osmocom/ranap/RANAP_LoggedMDT.h \
+ /usr/include/osmocom/ranap/RANAP_LoggingInterval.h \
+ /usr/include/osmocom/ranap/RANAP_LoggingDuration.h \
+ /usr/include/osmocom/ranap/RANAP_M4-Collection-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_M4-Period.h \
+ /usr/include/osmocom/ranap/RANAP_M4-Threshold.h \
+ /usr/include/osmocom/ranap/RANAP_M4Report.h /usr/include/asn1c/NULL.h \
+ /usr/include/osmocom/ranap/RANAP_M5-Period.h \
+ /usr/include/osmocom/ranap/RANAP_M5Report.h \
+ /usr/include/osmocom/ranap/RANAP_M6-Period.h \
+ /usr/include/osmocom/ranap/RANAP_M6Report.h \
+ /usr/include/osmocom/ranap/RANAP_M7-Period.h \
+ /usr/include/osmocom/ranap/RANAP_M7Report.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSBearerServiceType.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSCNDe-Registration.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSCNDe-RegistrationRequest.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSCNDe-RegistrationResponse.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSCountingInformation.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSHCIndicator.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSLinkingInformation.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRABEstablishmentIndication.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRABRelease.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRABReleaseFailure.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRABReleaseRequest.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRegistrationFailure.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRegistrationRequest.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRegistrationRequestType.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSRegistrationResponse.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSServiceArea.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionDuration.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionIdentity.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionRepetitionNumber.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionStart.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionStartFailure.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionStartResponse.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionStop.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionStopResponse.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionUpdate.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionUpdateFailure.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSessionUpdateResponse.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSSynchronisationInformation.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSUELinkingRequest.h \
+ /usr/include/osmocom/ranap/RANAP_MBMSUELinkingResponse.h \
+ /usr/include/osmocom/ranap/RANAP_MDT-Activation.h \
+ /usr/include/osmocom/ranap/RANAP_MDT-Configuration.h \
+ /usr/include/osmocom/ranap/RANAP_MDTAreaScope.h \
+ /usr/include/osmocom/ranap/RANAP_RABased.h \
+ /usr/include/osmocom/ranap/RANAP_RAI-List.h \
+ /usr/include/osmocom/ranap/RANAP_RAI.h \
+ /usr/include/osmocom/ranap/RANAP_MDTMode.h \
+ /usr/include/osmocom/ranap/RANAP_MDT-PLMN-List.h \
+ /usr/include/osmocom/ranap/RANAP_MSISDN.h \
+ /usr/include/osmocom/ranap/RANAP_Management-Based-MDT-Allowed.h \
+ /usr/include/osmocom/ranap/RANAP_MaxSDU-Size.h \
+ /usr/include/osmocom/ranap/RANAP_MessageStructure.h \
+ /usr/include/osmocom/ranap/RANAP_MessageStructure-Value.h \
+ /usr/include/osmocom/ranap/RANAP_RepetitionNumber1.h \
+ /usr/include/osmocom/ranap/RANAP_NAS-SequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_NAS-SynchronisationIndicator.h \
+ /usr/include/osmocom/ranap/RANAP_NewBSS-To-OldBSS-Information.h \
+ /usr/include/osmocom/ranap/RANAP_NonSearchingIndication.h \
+ /usr/include/osmocom/ranap/RANAP_NotEmptyRAListofIdleModeUEs.h \
+ /usr/include/osmocom/ranap/RANAP_RAofIdleModeUEs.h \
+ /usr/include/osmocom/ranap/RANAP_NumberOfIuInstances.h \
+ /usr/include/osmocom/ranap/RANAP_NumberOfSteps.h \
+ /usr/include/osmocom/ranap/RANAP_OMC-ID.h \
+ /usr/include/osmocom/ranap/RANAP_Offload-RAB-Parameters-APN.h \
+ /usr/include/osmocom/ranap/RANAP_Offload-RAB-Parameters-ChargingCharacteristics.h \
+ /usr/include/osmocom/ranap/RANAP_Offload-RAB-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_OldBSS-ToNewBSS-Information.h \
+ /usr/include/osmocom/ranap/RANAP_Out-Of-UTRAN.h \
+ /usr/include/osmocom/ranap/RANAP_Outcome.h \
+ /usr/include/osmocom/ranap/RANAP_Overload.h \
+ /usr/include/osmocom/ranap/RANAP_P-TMSI.h \
+ /usr/include/osmocom/ranap/RANAP_PDP-Type-extension.h \
+ /usr/include/osmocom/ranap/RANAP_PDP-Type.h \
+ /usr/include/osmocom/ranap/RANAP_PDP-TypeInformation-extension.h \
+ /usr/include/osmocom/ranap/RANAP_PDP-TypeInformation.h \
+ /usr/include/osmocom/ranap/RANAP_PDUType14FrameSequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_PLMNs-in-shared-network.h \
+ /usr/include/osmocom/ranap/RANAP_PLMNs-in-shared-network-Value.h \
+ /usr/include/osmocom/ranap/RANAP_Paging.h \
+ /usr/include/osmocom/ranap/RANAP_PagingAreaID.h \
+ /usr/include/osmocom/ranap/RANAP_PagingCause.h \
+ /usr/include/osmocom/ranap/RANAP_Port-Number.h \
+ /usr/include/osmocom/ranap/RANAP_PositionData.h \
+ /usr/include/osmocom/ranap/RANAP_PositioningDataDiscriminator.h \
+ /usr/include/osmocom/ranap/RANAP_PositioningDataSet.h \
+ /usr/include/osmocom/ranap/RANAP_PositioningMethodAndUsage.h \
+ /usr/include/osmocom/ranap/RANAP_PositionDataSpecificToGERANIuMode.h \
+ /usr/include/osmocom/ranap/RANAP_Presence.h \
+ /usr/include/osmocom/ranap/RANAP_Priority-Class-Indicator.h \
+ /usr/include/osmocom/ranap/RANAP_PrivateIE-ID.h \
+ /usr/include/asn1c/OBJECT_IDENTIFIER.h \
+ /usr/include/osmocom/ranap/RANAP_PrivateMessage.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolError-IE-ContainerList.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolExtensionID.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolIE-ContainerPair.h \
+ /usr/include/osmocom/ranap/RANAP_ProtocolIE-FieldPair.h \
+ /usr/include/osmocom/ranap/RANAP_ProvidedData.h \
+ /usr/include/osmocom/ranap/RANAP_Shared-Network-Information.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-AssignmentRequest.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-AssignmentResponse.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-AsymmetryIndicator.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ContextItem-RANAP-RelocInf.h \
+ /usr/include/osmocom/ranap/RANAP_UL-GTP-PDU-SequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_UL-N-PDU-SequenceNumber.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ContextItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ContextList-RANAP-RelocInf.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ContextList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataForwardingItem-SRNS-CtxReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataForwardingItem.h \
+ /usr/include/osmocom/ranap/RANAP_TransportLayerAddress.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataForwardingList-SRNS-CtxReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataForwardingList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportRequestItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportRequestList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-FailedItem-EnhRelocInfoRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-FailedItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-FailedList-EnhRelocInfoRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-FailedList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-IE-ContainerList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-IE-ContainerPairList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ModifyItem.h \
+ /usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-Values.h \
+ /usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-MaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-GuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ModifyList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ModifyRequest.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-Parameter-ExtendedGuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-Parameter-ExtendedMaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-Parameter-GuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-Parameter-MaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_TrafficClass.h \
+ /usr/include/osmocom/ranap/RANAP_SDU-Parameters.h \
+ /usr/include/osmocom/ranap/RANAP_SDU-ParameterItem.h \
+ /usr/include/osmocom/ranap/RANAP_SDU-ErrorRatio.h \
+ /usr/include/osmocom/ranap/RANAP_ResidualBitErrorRatio.h \
+ /usr/include/osmocom/ranap/RANAP_SDU-FormatInformationParameters.h \
+ /usr/include/osmocom/ranap/RANAP_SDU-FormatInformationParameterItem.h \
+ /usr/include/osmocom/ranap/RANAP_SubflowSDU-Size.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SubflowCombinationBitRate.h \
+ /usr/include/osmocom/ranap/RANAP_TransferDelay.h \
+ /usr/include/osmocom/ranap/RANAP_TrafficHandlingPriority.h \
+ /usr/include/osmocom/ranap/RANAP_SourceStatisticsDescriptor.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationRequirement.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-QueuedItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-QueuedList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleaseFailedList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleaseItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleaseList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleaseRequest.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleasedItem-IuRelComp.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleasedItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleasedList-IuRelComp.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ReleasedList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-RelocationReleaseItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-RelocationReleaseList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhRelocInfoReq.h \
+ /usr/include/osmocom/ranap/RANAP_UserPlaneInformation.h \
+ /usr/include/osmocom/ranap/RANAP_UserPlaneMode.h \
+ /usr/include/osmocom/ranap/RANAP_UP-ModeVersions.h \
+ /usr/include/osmocom/ranap/RANAP_TNLInformationEnhRelInfoReq.h \
+ /usr/include/osmocom/ranap/RANAP_Service-Handover.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhRelocInfoRes.h \
+ /usr/include/osmocom/ranap/RANAP_TNLInformationEnhRelInfoRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhancedRelocCompleteReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhancedRelocCompleteRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ToBeReleasedList-EnhancedRelocCompleteRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupItem-RelocReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupItem-RelocReqAck.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhRelocInfoReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhRelocInfoRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhancedRelocCompleteReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhancedRelocCompleteRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupList-RelocReq.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupList-RelocReqAck.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifiedItem.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifiedList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifyItemFirst.h \
+ /usr/include/osmocom/ranap/RANAP_TransportLayerInformation.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifyItemSecond.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifyList.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-ToBeReleasedItem-EnhancedRelocCompleteRes.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-TrCH-Mapping.h \
+ /usr/include/osmocom/ranap/RANAP_RAB-TrCH-MappingItem.h \
+ /usr/include/osmocom/ranap/RANAP_TrCH-ID-List.h \
+ /usr/include/osmocom/ranap/RANAP_TrCH-ID.h \
+ /usr/include/osmocom/ranap/RANAP_USCH-ID.h \
+ /usr/include/osmocom/ranap/RANAP_RABDataVolumeReport.h \
+ /usr/include/osmocom/ranap/RANAP_RABDataVolumeReport-Value.h \
+ /usr/include/osmocom/ranap/RANAP_RABParametersList.h \
+ /usr/include/osmocom/ranap/RANAP_RABParametersList-Value.h \
+ /usr/include/osmocom/ranap/RANAP_UPInformation.h \
+ /usr/include/osmocom/ranap/RANAP_UPInitialisationFrame.h \
+ /usr/include/osmocom/ranap/RANAP_RABs-ContextFailedtoTransferItem.h \
+ /usr/include/osmocom/ranap/RANAP_RABs-ContextFailedtoTransferList.h \
+ /usr/include/osmocom/ranap/RANAP_RABs-failed-to-reportItem.h \
+ /usr/include/osmocom/ranap/RANAP_RABs-failed-to-reportList.h \
+ /usr/include/osmocom/ranap/RANAP_RAListofIdleModeUEs.h \
+ /usr/include/osmocom/ranap/RANAP_RANAP-EnhancedRelocationInformationRequest.h \
+ /usr/include/osmocom/ranap/RANAP_RANAP-EnhancedRelocationInformationResponse.h \
+ /usr/include/osmocom/ranap/RANAP_RANAP-PDU.h \
+ /usr/include/osmocom/ranap/RANAP_SuccessfulOutcome.h \
+ /usr/include/osmocom/ranap/RANAP_UnsuccessfulOutcome.h \
+ /usr/include/osmocom/ranap/RANAP_RANAP-RelocationInformation.h \
+ /usr/include/osmocom/ranap/RANAP_RAT-Type.h \
+ /usr/include/osmocom/ranap/RANAP_RNSAPRelocationParameters.h \
+ /usr/include/osmocom/ranap/RANAP_TraceInformation.h \
+ /usr/include/osmocom/ranap/RANAP_UE-ID.h \
+ /usr/include/osmocom/ranap/RANAP_TracePropagationParameters.h \
+ /usr/include/osmocom/ranap/RANAP_TraceRecordingSessionReference.h \
+ /usr/include/osmocom/ranap/RANAP_TraceDepth.h \
+ /usr/include/osmocom/ranap/RANAP_RRC-Container.h \
+ /usr/include/osmocom/ranap/RANAP_RSRQ-Extension.h \
+ /usr/include/osmocom/ranap/RANAP_RSRQ-Type.h \
+ /usr/include/asn1c/BOOLEAN.h \
+ /usr/include/osmocom/ranap/RANAP_RSRVCC-HO-Indication.h \
+ /usr/include/osmocom/ranap/RANAP_RSRVCC-Information.h \
+ /usr/include/osmocom/ranap/RANAP_RSRVCC-Operation-Possible.h \
+ /usr/include/osmocom/ranap/RANAP_RateControlAllowed.h \
+ /usr/include/osmocom/ranap/RANAP_RedirectAttemptFlag.h \
+ /usr/include/osmocom/ranap/RANAP_RedirectionCompleted.h \
+ /usr/include/osmocom/ranap/RANAP_RedirectionIndication.h \
+ /usr/include/osmocom/ranap/RANAP_RejectCauseValue.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationCancel.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationCancelAcknowledge.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationCommand.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationComplete.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationDetect.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationFailure.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationPreparationFailure.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationRequest.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationRequestAcknowledge.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationRequired.h \
+ /usr/include/osmocom/ranap/RANAP_RelocationType.h \
+ /usr/include/osmocom/ranap/RANAP_ReportArea.h \
+ /usr/include/osmocom/ranap/RANAP_RequestType.h \
+ /usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-ExtendedGuaranteedBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-ExtendedMaxBitrateList.h \
+ /usr/include/osmocom/ranap/RANAP_RequestedGANSSAssistanceData.h \
+ /usr/include/osmocom/ranap/RANAP_Reset.h \
+ /usr/include/osmocom/ranap/RANAP_ResetAcknowledge.h \
+ /usr/include/osmocom/ranap/RANAP_ResetResource.h \
+ /usr/include/osmocom/ranap/RANAP_ResetResourceAckItem.h \
+ /usr/include/osmocom/ranap/RANAP_ResetResourceAckList.h \
+ /usr/include/osmocom/ranap/RANAP_ResetResourceAcknowledge.h \
+ /usr/include/osmocom/ranap/RANAP_ResetResourceItem.h \
+ /usr/include/osmocom/ranap/RANAP_ResetResourceList.h \
+ /usr/include/osmocom/ranap/RANAP_SNA-Access-Information.h \
+ /usr/include/osmocom/ranap/RANAP_SRB-ID.h \
+ /usr/include/osmocom/ranap/RANAP_SRB-TrCH-Mapping.h \
+ /usr/include/osmocom/ranap/RANAP_SRB-TrCH-MappingItem.h \
+ /usr/include/osmocom/ranap/RANAP_SRNS-ContextRequest.h \
+ /usr/include/osmocom/ranap/RANAP_SRNS-ContextResponse.h \
+ /usr/include/osmocom/ranap/RANAP_SRNS-DataForwardCommand.h \
+ /usr/include/osmocom/ranap/RANAP_SRVCC-CSKeysRequest.h \
+ /usr/include/osmocom/ranap/RANAP_SRVCC-CSKeysResponse.h \
+ /usr/include/osmocom/ranap/RANAP_SRVCC-HO-Indication.h \
+ /usr/include/osmocom/ranap/RANAP_SRVCC-Information.h \
+ /usr/include/osmocom/ranap/RANAP_SRVCC-Operation-Possible.h \
+ /usr/include/osmocom/ranap/RANAP_SecurityModeCommand.h \
+ /usr/include/osmocom/ranap/RANAP_SecurityModeComplete.h \
+ /usr/include/osmocom/ranap/RANAP_SecurityModeReject.h \
+ /usr/include/osmocom/ranap/RANAP_Session-Re-establishment-Indicator.h \
+ /usr/include/osmocom/ranap/RANAP_SessionUpdateID.h \
+ /usr/include/osmocom/ranap/RANAP_SignallingIndication.h \
+ /usr/include/osmocom/ranap/RANAP_Source-ToTarget-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_SourceBSS-ToTargetBSS-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_SourceID.h \
+ /usr/include/osmocom/ranap/RANAP_SourceRNC-ID.h \
+ /usr/include/osmocom/ranap/RANAP_SourceRNC-ToTargetRNC-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_SourceeNodeB-ToTargeteNodeB-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_SubscriberProfileIDforRFP.h \
+ /usr/include/osmocom/ranap/RANAP_TBCD-STRING.h \
+ /usr/include/osmocom/ranap/RANAP_TMSI.h \
+ /usr/include/osmocom/ranap/RANAP_Target-ToSource-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_TargetBSS-ToSourceBSS-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_TargetID.h \
+ /usr/include/osmocom/ranap/RANAP_TargetRNC-ToSourceRNC-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_TargeteNodeB-ToSourceeNodeB-TransparentContainer.h \
+ /usr/include/osmocom/ranap/RANAP_TemporaryUE-ID.h \
+ /usr/include/osmocom/ranap/RANAP_Time-UE-StayedInCell-EnhancedGranularity.h \
+ /usr/include/osmocom/ranap/RANAP_TimeToMBMSDataTransfer.h \
+ /usr/include/osmocom/ranap/RANAP_TimingDifferenceULDL.h \
+ /usr/include/osmocom/ranap/RANAP_TraceRecordingSessionInformation.h \
+ /usr/include/osmocom/ranap/RANAP_TraceType.h \
+ /usr/include/osmocom/ranap/RANAP_TriggerID.h \
+ /usr/include/osmocom/ranap/RANAP_TunnelInformation.h \
+ /usr/include/osmocom/ranap/RANAP_TypeOfError.h \
+ /usr/include/osmocom/ranap/RANAP_UE-AggregateMaximumBitRate.h \
+ /usr/include/osmocom/ranap/RANAP_UE-AggregateMaximumBitRateDownlink.h \
+ /usr/include/osmocom/ranap/RANAP_UE-AggregateMaximumBitRateUplink.h \
+ /usr/include/osmocom/ranap/RANAP_UE-History-Information.h \
+ /usr/include/osmocom/ranap/RANAP_UESBI-Iu.h \
+ /usr/include/osmocom/ranap/RANAP_UESBI-IuA.h \
+ /usr/include/osmocom/ranap/RANAP_UESBI-IuB.h \
+ /usr/include/osmocom/ranap/RANAP_UESpecificInformationIndication.h \
+ /usr/include/osmocom/ranap/RANAP_UeRadioCapabilityMatchRequest.h \
+ /usr/include/osmocom/ranap/RANAP_UeRadioCapabilityMatchResponse.h \
+ /usr/include/osmocom/ranap/RANAP_UnsuccessfulLinking-IEs.h \
+ /usr/include/osmocom/ranap/RANAP_UnsuccessfulLinking-IEs-Value.h \
+ /usr/include/osmocom/ranap/RANAP_UplinkInformationExchangeFailure.h \
+ /usr/include/osmocom/ranap/RANAP_UplinkInformationExchangeRequest.h \
+ /usr/include/osmocom/ranap/RANAP_UplinkInformationExchangeResponse.h \
+ /usr/include/osmocom/ranap/RANAP_VelocityEstimate.h \
+ /usr/include/osmocom/ranap/RANAP_VoiceSupportMatchIndicator.h \
+ /usr/include/osmocom/core/logging.h \
+ /usr/include/osmocom/ranap/ranap_ies_defs.h \
+ /usr/include/osmocom/ranap/ranap_msg_factory.h \
+ /usr/include/osmocom/ranap/iu_helpers.h \
+ ../../include/osmocom/msc/debug.h ../../include/osmocom/msc/msc_common.h \
+ /usr/include/osmocom/core/tdef.h /usr/include/osmocom/gsm/gsm0808.h \
+ /usr/include/osmocom/gsm/protocol/gsm_08_08.h \
+ /usr/include/osmocom/gsm/gsm0808_utils.h \
+ /usr/include/osmocom/gsm/gsm29205.h \
+ /usr/include/osmocom/core/socket_compat.h \
+ ../../include/osmocom/msc/sccp_ran.h \
+ /usr/include/osmocom/sigtran/sccp_sap.h \
+ /usr/include/osmocom/sigtran/sigtran_sap.h \
+ /usr/include/osmocom/sigtran/osmo_ss7.h /usr/include/osmocom/core/fsm.h \
+ /usr/include/osmocom/core/timer.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/osmocom/core/linuxrbtree.h \
+ /usr/include/osmocom/core/timer_compat.h \
+ /usr/include/osmocom/core/socket.h /usr/include/arpa/inet.h \
+ /usr/include/osmocom/core/rate_ctr.h ../../include/osmocom/msc/paging.h \
+ ../../include/osmocom/msc/ran_msg_iu.h \
+ ../../include/osmocom/msc/ran_msg.h \
+ /usr/include/osmocom/core/sockaddr_str.h \
+ /usr/include/osmocom/mgcp_client/mgcp_client.h \
+ /usr/include/osmocom/mgcp_client/defs.h \
+ /usr/include/osmocom/mgcp_client/mgcp_common.h \
+ ../../include/osmocom/msc/gsm_04_11.h \
+ /usr/include/osmocom/gsm/protocol/gsm_04_11.h \
+ ../../include/osmocom/msc/gsm_04_11_gsup.h
+
+/usr/include/stdc-predef.h:
+
+/usr/include/asn1c/asn1helpers.h:
+
+/usr/include/unistd.h:
+
+/usr/include/features.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/asn1c/asn_system.h:
+
+/usr/include/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/inttypes.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/include/linux/stddef.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/asn1c/BIT_STRING.h:
+
+/usr/include/asn1c/OCTET_STRING.h:
+
+/usr/include/asn1c/asn_application.h:
+
+/usr/include/asn1c/asn_codecs.h:
+
+/usr/include/asn1c/constr_TYPE.h:
+
+/usr/include/asn1c/ber_tlv_length.h:
+
+/usr/include/asn1c/ber_tlv_tag.h:
+
+/usr/include/asn1c/ber_decoder.h:
+
+/usr/include/asn1c/der_encoder.h:
+
+/usr/include/asn1c/xer_decoder.h:
+
+/usr/include/asn1c/xer_encoder.h:
+
+/usr/include/asn1c/per_decoder.h:
+
+/usr/include/asn1c/per_support.h:
+
+/usr/include/asn1c/asn_system.h:
+
+/usr/include/asn1c/per_encoder.h:
+
+/usr/include/asn1c/constraints.h:
+
+/usr/include/asn1c/OCTET_STRING.h:
+
+/usr/include/osmocom/core/prim.h:
+
+/usr/include/osmocom/core/msgb.h:
+
+/usr/include/osmocom/core/linuxlist.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+
+/usr/include/osmocom/core/utils.h:
+
+/usr/include/osmocom/core/backtrace.h:
+
+/usr/include/osmocom/core/talloc.h:
+
+/usr/include/talloc.h:
+
+/usr/include/osmocom/core/panic.h:
+
+/usr/include/osmocom/core/defs.h:
+
+/usr/include/osmocom/core/bits.h:
+
+/usr/include/osmocom/core/bit16gen.h:
+
+/usr/include/osmocom/core/bit32gen.h:
+
+/usr/include/osmocom/core/bit64gen.h:
+
+/usr/include/osmocom/core/byteswap.h:
+
+/usr/include/osmocom/core/endian.h:
+
+/usr/include/osmocom/crypt/auth.h:
+
+/usr/include/osmocom/crypt/utran_cipher.h:
+
+/usr/include/osmocom/gsm/gsm48.h:
+
+/usr/include/osmocom/gsm/tlv.h:
+
+/usr/include/osmocom/gsm/protocol/gsm_04_08.h:
+
+/usr/include/osmocom/gsm/gsm_utils.h:
+
+/usr/include/osmocom/gsm/protocol/gsm_23_003.h:
+
+/usr/include/osmocom/gsm/gsm48_ie.h:
+
+/usr/include/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/osmocom/gsm/mncc.h:
+
+/usr/include/osmocom/gsm/gsm23003.h:
+
+/usr/include/osmocom/ranap/ranap_common_cn.h:
+
+/usr/include/osmocom/ranap/ranap_common.h:
+
+/usr/include/asn1c/asn_application.h:
+
+/usr/include/osmocom/ranap/RANAP_APN.h:
+
+/usr/include/asn1c/asn_internal.h:
+
+/usr/include/asn1c/asn_application.h:
+
+/usr/include/assert.h:
+
+/usr/include/osmocom/ranap/RANAP_AccuracyFulfilmentIndicator.h:
+
+/usr/include/asn1c/NativeEnumerated.h:
+
+/usr/include/asn1c/NativeInteger.h:
+
+/usr/include/asn1c/INTEGER.h:
+
+/usr/include/asn1c/asn_codecs_prim.h:
+
+/usr/include/osmocom/ranap/RANAP_AllocationOrRetentionPriority.h:
+
+/usr/include/osmocom/ranap/RANAP_PriorityLevel.h:
+
+/usr/include/osmocom/ranap/RANAP_Pre-emptionCapability.h:
+
+/usr/include/osmocom/ranap/RANAP_Pre-emptionVulnerability.h:
+
+/usr/include/osmocom/ranap/RANAP_QueuingAllowed.h:
+
+/usr/include/osmocom/ranap/RANAP_IE-Extensions.h:
+
+/usr/include/osmocom/ranap/RANAP_IE.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolIE-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_Criticality.h:
+
+/usr/include/asn1c/ANY.h:
+
+/usr/include/asn1c/constr_SEQUENCE.h:
+
+/usr/include/asn1c/asn_SEQUENCE_OF.h:
+
+/usr/include/asn1c/asn_SET_OF.h:
+
+/usr/include/asn1c/constr_SEQUENCE_OF.h:
+
+/usr/include/asn1c/constr_SET_OF.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedGuaranteedBitrateInf.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrateType.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedGuaranteedBitrates.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedGuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_ExtendedGuaranteedBitrate.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedMaxBitrateInf.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrateType.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedMaxBitrates.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-ExtendedMaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_ExtendedMaxBitrate.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrateInf.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrates.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-GuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_GuaranteedBitrate.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrateInf.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrates.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-MaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_MaxBitrate.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedGuaranteedBitrateInf.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedGuaranteedBitrates.h:
+
+/usr/include/osmocom/ranap/RANAP_SupportedRAB-ParameterBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_SupportedBitrate.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedMaxBitrateInf.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameter-SupportedMaxBitrates.h:
+
+/usr/include/osmocom/ranap/RANAP_Alt-RAB-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_AlternativeRABConfigurationRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_AreaIdentity.h:
+
+/usr/include/osmocom/ranap/RANAP_SAI.h:
+
+/usr/include/osmocom/ranap/RANAP_PLMNidentity.h:
+
+/usr/include/asn1c/constr_CHOICE.h:
+
+/usr/include/osmocom/ranap/RANAP_LAC.h:
+
+/usr/include/osmocom/ranap/RANAP_SAC.h:
+
+/usr/include/osmocom/ranap/RANAP_GeographicalArea.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-Point.h:
+
+/usr/include/osmocom/ranap/RANAP_GeographicalCoordinates.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-PointWithUnCertainty.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-Polygon.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-Polygon-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-PointWithUnCertaintyEllipse.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-UncertaintyEllipse.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-PointWithAltitude.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-AltitudeAndDirection.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-PointWithAltitudeAndUncertaintyEllipsoid.h:
+
+/usr/include/osmocom/ranap/RANAP_GA-EllipsoidArc.h:
+
+/usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-ExtendedGuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-ExtendedMaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-GuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameter-MaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_Ass-RAB-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_AuthorisedPLMNs.h:
+
+/usr/include/osmocom/ranap/RANAP_AuthorisedPLMNs-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_AuthorisedSNAs.h:
+
+/usr/include/osmocom/ranap/RANAP_SNAC.h:
+
+/usr/include/osmocom/ranap/RANAP_BindingID.h:
+
+/usr/include/osmocom/ranap/RANAP_BroadcastAssistanceDataDecipheringKeys.h:
+
+/usr/include/asn1c/BIT_STRING.h:
+
+/usr/include/osmocom/ranap/RANAP_CGI.h:
+
+/usr/include/osmocom/ranap/RANAP_CI.h:
+
+/usr/include/osmocom/ranap/RANAP_CN-DeactivateTrace.h:
+
+/usr/include/osmocom/ranap/RANAP_CN-DomainIndicator.h:
+
+/usr/include/osmocom/ranap/RANAP_CN-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_CN-InvokeTrace.h:
+
+/usr/include/osmocom/ranap/RANAP_CNMBMSLinkingInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_JoinedMBMSBearerService-IEs.h:
+
+/usr/include/osmocom/ranap/RANAP_JoinedMBMSBearerService-IEs-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_TMGI.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMS-PTP-RAB-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolExtensionContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolExtensionField.h:
+
+/usr/include/osmocom/ranap/RANAP_CSFB-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_CSG-Id-List.h:
+
+/usr/include/osmocom/ranap/RANAP_CSG-Id.h:
+
+/usr/include/osmocom/ranap/RANAP_CSG-Membership-Status.h:
+
+/usr/include/osmocom/ranap/RANAP_Cause.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseRadioNetwork.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseTransmissionNetwork.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseNAS.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseProtocol.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseMisc.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseNon-Standard.h:
+
+/usr/include/osmocom/ranap/RANAP_CauseRadioNetworkExtension.h:
+
+/usr/include/osmocom/ranap/RANAP_Cell-Access-Mode.h:
+
+/usr/include/osmocom/ranap/RANAP_Cell-Capacity-Class-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_Cell-Id.h:
+
+/usr/include/osmocom/ranap/RANAP_CellBased.h:
+
+/usr/include/osmocom/ranap/RANAP_CellIdList.h:
+
+/usr/include/osmocom/ranap/RANAP_CellLoadInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_LoadValue.h:
+
+/usr/include/osmocom/ranap/RANAP_RTLoadValue.h:
+
+/usr/include/osmocom/ranap/RANAP_NRTLoadInformationValue.h:
+
+/usr/include/osmocom/ranap/RANAP_CellLoadInformationGroup.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceCellID.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceUTRANCellID.h:
+
+/usr/include/osmocom/ranap/RANAP_TargetCellId.h:
+
+/usr/include/osmocom/ranap/RANAP_CellType.h:
+
+/usr/include/osmocom/ranap/RANAP_ChosenEncryptionAlgorithm.h:
+
+/usr/include/osmocom/ranap/RANAP_EncryptionAlgorithm.h:
+
+/usr/include/osmocom/ranap/RANAP_ChosenIntegrityProtectionAlgorithm.h:
+
+/usr/include/osmocom/ranap/RANAP_IntegrityProtectionAlgorithm.h:
+
+/usr/include/osmocom/ranap/RANAP_ClassmarkInformation2.h:
+
+/usr/include/osmocom/ranap/RANAP_ClassmarkInformation3.h:
+
+/usr/include/osmocom/ranap/RANAP_ClientType.h:
+
+/usr/include/osmocom/ranap/RANAP_CommonID.h:
+
+/usr/include/osmocom/ranap/RANAP_Correlation-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_CriticalityDiagnostics-IE-List.h:
+
+/usr/include/osmocom/ranap/RANAP_CriticalityDiagnostics-IE-List-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_RepetitionNumber0.h:
+
+/usr/include/osmocom/ranap/RANAP_CriticalityDiagnostics.h:
+
+/usr/include/osmocom/ranap/RANAP_ProcedureCode.h:
+
+/usr/include/osmocom/ranap/RANAP_TriggeringMessage.h:
+
+/usr/include/osmocom/ranap/RANAP_D-RNTI.h:
+
+/usr/include/osmocom/ranap/RANAP_DCH-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_DL-GTP-PDU-SequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_DL-N-PDU-SequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_DRX-CycleLengthCoefficient.h:
+
+/usr/include/osmocom/ranap/RANAP_DSCH-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_DataPDUType.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeList.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeList-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_UnsuccessfullyTransmittedDataVolume.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeReference.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeReport.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeReportList.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeReportRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_DataVolumeReportingIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_DeliveryOfErroneousSDU.h:
+
+/usr/include/osmocom/ranap/RANAP_DeliveryOrder.h:
+
+/usr/include/osmocom/ranap/RANAP_DeltaRAListofIdleModeUEs.h:
+
+/usr/include/osmocom/ranap/RANAP_NewRAListofIdleModeUEs.h:
+
+/usr/include/osmocom/ranap/RANAP_RAC.h:
+
+/usr/include/osmocom/ranap/RANAP_RAListwithNoIdleModeUEsAnyMore.h:
+
+/usr/include/osmocom/ranap/RANAP_DirectInformationTransfer.h:
+
+/usr/include/osmocom/ranap/RANAP_DirectReportingIndicator.h:
+
+/usr/include/osmocom/ranap/RANAP_DirectTransfer-IE-ContainerList.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolIE-Container.h:
+
+/usr/include/osmocom/ranap/RANAP_DirectTransfer.h:
+
+/usr/include/osmocom/ranap/RANAP_DirectTransferInformationItem-RANAP-RelocInf.h:
+
+/usr/include/osmocom/ranap/RANAP_NAS-PDU.h:
+
+/usr/include/osmocom/ranap/RANAP_SAPI.h:
+
+/usr/include/osmocom/ranap/RANAP_E-DCH-MAC-d-Flow-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_E-UTRAN-Service-Handover.h:
+
+/usr/include/osmocom/ranap/RANAP_EARFCN-Extended.h:
+
+/usr/include/osmocom/ranap/RANAP_ENB-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_EUTRANFrequencies.h:
+
+/usr/include/osmocom/ranap/RANAP_EUTRANFrequencies-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_MeasBand.h:
+
+/usr/include/osmocom/ranap/RANAP_EncryptionInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_PermittedEncryptionAlgorithms.h:
+
+/usr/include/osmocom/ranap/RANAP_EncryptionKey.h:
+
+/usr/include/osmocom/ranap/RANAP_End-Of-CSFB.h:
+
+/usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteConfirm.h:
+
+/usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_EnhancedRelocationCompleteResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_EquipmentsToBeTraced.h:
+
+/usr/include/osmocom/ranap/RANAP_IMEIList.h:
+
+/usr/include/osmocom/ranap/RANAP_IMEI.h:
+
+/usr/include/osmocom/ranap/RANAP_IMEISVList.h:
+
+/usr/include/osmocom/ranap/RANAP_IMEISV.h:
+
+/usr/include/osmocom/ranap/RANAP_IMEIGroup.h:
+
+/usr/include/osmocom/ranap/RANAP_IMEISVGroup.h:
+
+/usr/include/osmocom/ranap/RANAP_ErrorIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_Event.h:
+
+/usr/include/osmocom/ranap/RANAP_Event1F-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_MeasurementQuantity.h:
+
+/usr/include/osmocom/ranap/RANAP_Event1I-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_ExtendedRNC-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_ForwardSRNS-Context.h:
+
+/usr/include/osmocom/ranap/RANAP_ForwardingIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_FrameSequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_FrequenceLayerConvergenceFlag.h:
+
+/usr/include/osmocom/ranap/RANAP_GANSS-PositioningDataSet.h:
+
+/usr/include/osmocom/ranap/RANAP_GANSS-PositioningMethodAndUsage.h:
+
+/usr/include/osmocom/ranap/RANAP_GERAN-BSC-Container.h:
+
+/usr/include/osmocom/ranap/RANAP_GERAN-Cell-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_LAI.h:
+
+/usr/include/osmocom/ranap/RANAP_GERAN-Classmark.h:
+
+/usr/include/osmocom/ranap/RANAP_GERAN-Iumode-RAB-Failed-RABAssgntResponse-Item.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_GERAN-Iumode-RAB-Failed-RABAssgntResponse-List.h:
+
+/usr/include/osmocom/ranap/RANAP_GTP-TEI.h:
+
+/usr/include/osmocom/ranap/RANAP_GlobalCN-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_GlobalRNC-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_RNC-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_HS-DSCH-MAC-d-Flow-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_HigherBitratesThan16MbpsFlag.h:
+
+/usr/include/osmocom/ranap/RANAP_HorizontalSpeedAndBearing.h:
+
+/usr/include/osmocom/ranap/RANAP_HorizontalVelocity.h:
+
+/usr/include/osmocom/ranap/RANAP_HorizontalVelocityWithUncertainty.h:
+
+/usr/include/osmocom/ranap/RANAP_HorizontalWithVerticalVelocity.h:
+
+/usr/include/osmocom/ranap/RANAP_VerticalVelocity.h:
+
+/usr/include/osmocom/ranap/RANAP_VerticalSpeedDirection.h:
+
+/usr/include/osmocom/ranap/RANAP_HorizontalWithVerticalVelocityAndUncertainty.h:
+
+/usr/include/osmocom/ranap/RANAP_IMSI.h:
+
+/usr/include/osmocom/ranap/RANAP_IPMulticastAddress.h:
+
+/usr/include/osmocom/ranap/RANAP_IRAT-Measurement-Configuration.h:
+
+/usr/include/osmocom/ranap/RANAP_IRATmeasurementParameters.h:
+
+/usr/include/osmocom/ranap/RANAP_ImmediateMDT.h:
+
+/usr/include/osmocom/ranap/RANAP_MeasurementsToActivate.h:
+
+/usr/include/osmocom/ranap/RANAP_M1Report.h:
+
+/usr/include/osmocom/ranap/RANAP_MDT-Report-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_ReportInterval.h:
+
+/usr/include/osmocom/ranap/RANAP_ReportAmount.h:
+
+/usr/include/osmocom/ranap/RANAP_M2Report.h:
+
+/usr/include/osmocom/ranap/RANAP_IncludeVelocity.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationExchangeID.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationExchangeType.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationRequestType.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSIPMulticastAddressandAPNRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_PermanentNAS-UE-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationRequested.h:
+
+/usr/include/osmocom/ranap/RANAP_RequestedMBMSIPMulticastAddressandAPNRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSIPMulticastAddressandAPNlist.h:
+
+/usr/include/osmocom/ranap/RANAP_RequestedMulticastServiceList.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationTransferConfirmation.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationTransferFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationTransferID.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationTransferIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_InformationTransferType.h:
+
+/usr/include/osmocom/ranap/RANAP_RNCTraceInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_TraceReference.h:
+
+/usr/include/osmocom/ranap/RANAP_InitialUE-Message.h:
+
+/usr/include/osmocom/ranap/RANAP_InitiatingMessage.h:
+
+/usr/include/osmocom/ranap/RANAP_IntegrityProtectionInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_PermittedIntegrityProtectionAlgorithms.h:
+
+/usr/include/osmocom/ranap/RANAP_IntegrityProtectionKey.h:
+
+/usr/include/osmocom/ranap/RANAP_InterSystemInformation-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_InterSystemInformationTransferType.h:
+
+/usr/include/osmocom/ranap/RANAP_RIM-Transfer.h:
+
+/usr/include/osmocom/ranap/RANAP_RIMInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_RIMRoutingAddress.h:
+
+/usr/include/osmocom/ranap/RANAP_TargetRNC-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_TargetENB-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_TAI.h:
+
+/usr/include/osmocom/ranap/RANAP_TAC.h:
+
+/usr/include/osmocom/ranap/RANAP_InterfacesToTraceItem.h:
+
+/usr/include/osmocom/ranap/RANAP_Iu-ReleaseCommand.h:
+
+/usr/include/osmocom/ranap/RANAP_Iu-ReleaseComplete.h:
+
+/usr/include/osmocom/ranap/RANAP_Iu-ReleaseRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_IuSigConId-IE-ContainerList.h:
+
+/usr/include/osmocom/ranap/RANAP_IuSignallingConnectionIdentifier.h:
+
+/usr/include/osmocom/ranap/RANAP_IuTransportAssociation.h:
+
+/usr/include/osmocom/ranap/RANAP_KeyStatus.h:
+
+/usr/include/osmocom/ranap/RANAP_L3-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_LA-LIST.h:
+
+/usr/include/osmocom/ranap/RANAP_LA-LIST-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_ListOF-SNAs.h:
+
+/usr/include/osmocom/ranap/RANAP_LABased.h:
+
+/usr/include/osmocom/ranap/RANAP_LAI-List.h:
+
+/usr/include/osmocom/ranap/RANAP_LAListofIdleModeUEs.h:
+
+/usr/include/osmocom/ranap/RANAP_LHN-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_LastKnownServiceArea.h:
+
+/usr/include/osmocom/ranap/RANAP_LastVisitedUTRANCell-Item.h:
+
+/usr/include/osmocom/ranap/RANAP_UTRAN-CellID.h:
+
+/usr/include/osmocom/ranap/RANAP_Time-UE-StayedInCell.h:
+
+/usr/include/osmocom/ranap/RANAP_LeftMBMSBearerService-IEs.h:
+
+/usr/include/osmocom/ranap/RANAP_LeftMBMSBearerService-IEs-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_Links-to-log.h:
+
+/usr/include/osmocom/ranap/RANAP_ListOfInterfacesToTrace.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationRelatedDataFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationRelatedDataRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationRelatedDataRequestType.h:
+
+/usr/include/osmocom/ranap/RANAP_RequestedLocationRelatedDataType.h:
+
+/usr/include/osmocom/ranap/RANAP_RequestedGPSAssistanceData.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationRelatedDataRequestTypeSpecificToGERANIuMode.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationRelatedDataResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationReport.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationReportingControl.h:
+
+/usr/include/osmocom/ranap/RANAP_LocationReportingTransferInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_ReportChangeOfSAI.h:
+
+/usr/include/osmocom/ranap/RANAP_PeriodicReportingIndicator.h:
+
+/usr/include/osmocom/ranap/RANAP_VerticalAccuracyCode.h:
+
+/usr/include/osmocom/ranap/RANAP_PositioningPriority.h:
+
+/usr/include/osmocom/ranap/RANAP_ResponseTime.h:
+
+/usr/include/osmocom/ranap/RANAP_PeriodicLocationInfo.h:
+
+/usr/include/osmocom/ranap/RANAP_LoggedMDT.h:
+
+/usr/include/osmocom/ranap/RANAP_LoggingInterval.h:
+
+/usr/include/osmocom/ranap/RANAP_LoggingDuration.h:
+
+/usr/include/osmocom/ranap/RANAP_M4-Collection-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_M4-Period.h:
+
+/usr/include/osmocom/ranap/RANAP_M4-Threshold.h:
+
+/usr/include/osmocom/ranap/RANAP_M4Report.h:
+
+/usr/include/asn1c/NULL.h:
+
+/usr/include/osmocom/ranap/RANAP_M5-Period.h:
+
+/usr/include/osmocom/ranap/RANAP_M5Report.h:
+
+/usr/include/osmocom/ranap/RANAP_M6-Period.h:
+
+/usr/include/osmocom/ranap/RANAP_M6Report.h:
+
+/usr/include/osmocom/ranap/RANAP_M7-Period.h:
+
+/usr/include/osmocom/ranap/RANAP_M7Report.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSBearerServiceType.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSCNDe-Registration.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSCNDe-RegistrationRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSCNDe-RegistrationResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSCountingInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSHCIndicator.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSLinkingInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRABEstablishmentIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRABRelease.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRABReleaseFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRABReleaseRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRegistrationFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRegistrationRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRegistrationRequestType.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSRegistrationResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSServiceArea.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionDuration.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionIdentity.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionRepetitionNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionStart.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionStartFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionStartResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionStop.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionStopResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionUpdate.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionUpdateFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSessionUpdateResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSSynchronisationInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSUELinkingRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_MBMSUELinkingResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_MDT-Activation.h:
+
+/usr/include/osmocom/ranap/RANAP_MDT-Configuration.h:
+
+/usr/include/osmocom/ranap/RANAP_MDTAreaScope.h:
+
+/usr/include/osmocom/ranap/RANAP_RABased.h:
+
+/usr/include/osmocom/ranap/RANAP_RAI-List.h:
+
+/usr/include/osmocom/ranap/RANAP_RAI.h:
+
+/usr/include/osmocom/ranap/RANAP_MDTMode.h:
+
+/usr/include/osmocom/ranap/RANAP_MDT-PLMN-List.h:
+
+/usr/include/osmocom/ranap/RANAP_MSISDN.h:
+
+/usr/include/osmocom/ranap/RANAP_Management-Based-MDT-Allowed.h:
+
+/usr/include/osmocom/ranap/RANAP_MaxSDU-Size.h:
+
+/usr/include/osmocom/ranap/RANAP_MessageStructure.h:
+
+/usr/include/osmocom/ranap/RANAP_MessageStructure-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_RepetitionNumber1.h:
+
+/usr/include/osmocom/ranap/RANAP_NAS-SequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_NAS-SynchronisationIndicator.h:
+
+/usr/include/osmocom/ranap/RANAP_NewBSS-To-OldBSS-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_NonSearchingIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_NotEmptyRAListofIdleModeUEs.h:
+
+/usr/include/osmocom/ranap/RANAP_RAofIdleModeUEs.h:
+
+/usr/include/osmocom/ranap/RANAP_NumberOfIuInstances.h:
+
+/usr/include/osmocom/ranap/RANAP_NumberOfSteps.h:
+
+/usr/include/osmocom/ranap/RANAP_OMC-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_Offload-RAB-Parameters-APN.h:
+
+/usr/include/osmocom/ranap/RANAP_Offload-RAB-Parameters-ChargingCharacteristics.h:
+
+/usr/include/osmocom/ranap/RANAP_Offload-RAB-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_OldBSS-ToNewBSS-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_Out-Of-UTRAN.h:
+
+/usr/include/osmocom/ranap/RANAP_Outcome.h:
+
+/usr/include/osmocom/ranap/RANAP_Overload.h:
+
+/usr/include/osmocom/ranap/RANAP_P-TMSI.h:
+
+/usr/include/osmocom/ranap/RANAP_PDP-Type-extension.h:
+
+/usr/include/osmocom/ranap/RANAP_PDP-Type.h:
+
+/usr/include/osmocom/ranap/RANAP_PDP-TypeInformation-extension.h:
+
+/usr/include/osmocom/ranap/RANAP_PDP-TypeInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_PDUType14FrameSequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_PLMNs-in-shared-network.h:
+
+/usr/include/osmocom/ranap/RANAP_PLMNs-in-shared-network-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_Paging.h:
+
+/usr/include/osmocom/ranap/RANAP_PagingAreaID.h:
+
+/usr/include/osmocom/ranap/RANAP_PagingCause.h:
+
+/usr/include/osmocom/ranap/RANAP_Port-Number.h:
+
+/usr/include/osmocom/ranap/RANAP_PositionData.h:
+
+/usr/include/osmocom/ranap/RANAP_PositioningDataDiscriminator.h:
+
+/usr/include/osmocom/ranap/RANAP_PositioningDataSet.h:
+
+/usr/include/osmocom/ranap/RANAP_PositioningMethodAndUsage.h:
+
+/usr/include/osmocom/ranap/RANAP_PositionDataSpecificToGERANIuMode.h:
+
+/usr/include/osmocom/ranap/RANAP_Presence.h:
+
+/usr/include/osmocom/ranap/RANAP_Priority-Class-Indicator.h:
+
+/usr/include/osmocom/ranap/RANAP_PrivateIE-ID.h:
+
+/usr/include/asn1c/OBJECT_IDENTIFIER.h:
+
+/usr/include/osmocom/ranap/RANAP_PrivateMessage.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolError-IE-ContainerList.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolExtensionID.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolIE-ContainerPair.h:
+
+/usr/include/osmocom/ranap/RANAP_ProtocolIE-FieldPair.h:
+
+/usr/include/osmocom/ranap/RANAP_ProvidedData.h:
+
+/usr/include/osmocom/ranap/RANAP_Shared-Network-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-AssignmentRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-AssignmentResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-AsymmetryIndicator.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ContextItem-RANAP-RelocInf.h:
+
+/usr/include/osmocom/ranap/RANAP_UL-GTP-PDU-SequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_UL-N-PDU-SequenceNumber.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ContextItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ContextList-RANAP-RelocInf.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ContextList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataForwardingItem-SRNS-CtxReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataForwardingItem.h:
+
+/usr/include/osmocom/ranap/RANAP_TransportLayerAddress.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataForwardingList-SRNS-CtxReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataForwardingList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportRequestItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-DataVolumeReportRequestList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-FailedItem-EnhRelocInfoRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-FailedItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-FailedList-EnhRelocInfoRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-FailedList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-IE-ContainerList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-IE-ContainerPairList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ModifyItem.h:
+
+/usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-Values.h:
+
+/usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-MaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-GuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ModifyList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ModifyRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-Parameter-ExtendedGuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-Parameter-ExtendedMaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-Parameter-GuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-Parameter-MaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_TrafficClass.h:
+
+/usr/include/osmocom/ranap/RANAP_SDU-Parameters.h:
+
+/usr/include/osmocom/ranap/RANAP_SDU-ParameterItem.h:
+
+/usr/include/osmocom/ranap/RANAP_SDU-ErrorRatio.h:
+
+/usr/include/osmocom/ranap/RANAP_ResidualBitErrorRatio.h:
+
+/usr/include/osmocom/ranap/RANAP_SDU-FormatInformationParameters.h:
+
+/usr/include/osmocom/ranap/RANAP_SDU-FormatInformationParameterItem.h:
+
+/usr/include/osmocom/ranap/RANAP_SubflowSDU-Size.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SubflowCombinationBitRate.h:
+
+/usr/include/osmocom/ranap/RANAP_TransferDelay.h:
+
+/usr/include/osmocom/ranap/RANAP_TrafficHandlingPriority.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceStatisticsDescriptor.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationRequirement.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-QueuedItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-QueuedList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleaseFailedList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleaseItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleaseList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleaseRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleasedItem-IuRelComp.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleasedItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleasedList-IuRelComp.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ReleasedList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-RelocationReleaseItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-RelocationReleaseList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhRelocInfoReq.h:
+
+/usr/include/osmocom/ranap/RANAP_UserPlaneInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_UserPlaneMode.h:
+
+/usr/include/osmocom/ranap/RANAP_UP-ModeVersions.h:
+
+/usr/include/osmocom/ranap/RANAP_TNLInformationEnhRelInfoReq.h:
+
+/usr/include/osmocom/ranap/RANAP_Service-Handover.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhRelocInfoRes.h:
+
+/usr/include/osmocom/ranap/RANAP_TNLInformationEnhRelInfoRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhancedRelocCompleteReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupItem-EnhancedRelocCompleteRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ToBeReleasedList-EnhancedRelocCompleteRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupItem-RelocReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupItem-RelocReqAck.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhRelocInfoReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhRelocInfoRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhancedRelocCompleteReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupList-EnhancedRelocCompleteRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupList-RelocReq.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupList-RelocReqAck.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifiedItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifiedList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifyItemFirst.h:
+
+/usr/include/osmocom/ranap/RANAP_TransportLayerInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifyItemSecond.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-SetupOrModifyList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-ToBeReleasedItem-EnhancedRelocCompleteRes.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-TrCH-Mapping.h:
+
+/usr/include/osmocom/ranap/RANAP_RAB-TrCH-MappingItem.h:
+
+/usr/include/osmocom/ranap/RANAP_TrCH-ID-List.h:
+
+/usr/include/osmocom/ranap/RANAP_TrCH-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_USCH-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_RABDataVolumeReport.h:
+
+/usr/include/osmocom/ranap/RANAP_RABDataVolumeReport-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_RABParametersList.h:
+
+/usr/include/osmocom/ranap/RANAP_RABParametersList-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_UPInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_UPInitialisationFrame.h:
+
+/usr/include/osmocom/ranap/RANAP_RABs-ContextFailedtoTransferItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RABs-ContextFailedtoTransferList.h:
+
+/usr/include/osmocom/ranap/RANAP_RABs-failed-to-reportItem.h:
+
+/usr/include/osmocom/ranap/RANAP_RABs-failed-to-reportList.h:
+
+/usr/include/osmocom/ranap/RANAP_RAListofIdleModeUEs.h:
+
+/usr/include/osmocom/ranap/RANAP_RANAP-EnhancedRelocationInformationRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_RANAP-EnhancedRelocationInformationResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_RANAP-PDU.h:
+
+/usr/include/osmocom/ranap/RANAP_SuccessfulOutcome.h:
+
+/usr/include/osmocom/ranap/RANAP_UnsuccessfulOutcome.h:
+
+/usr/include/osmocom/ranap/RANAP_RANAP-RelocationInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_RAT-Type.h:
+
+/usr/include/osmocom/ranap/RANAP_RNSAPRelocationParameters.h:
+
+/usr/include/osmocom/ranap/RANAP_TraceInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_UE-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_TracePropagationParameters.h:
+
+/usr/include/osmocom/ranap/RANAP_TraceRecordingSessionReference.h:
+
+/usr/include/osmocom/ranap/RANAP_TraceDepth.h:
+
+/usr/include/osmocom/ranap/RANAP_RRC-Container.h:
+
+/usr/include/osmocom/ranap/RANAP_RSRQ-Extension.h:
+
+/usr/include/osmocom/ranap/RANAP_RSRQ-Type.h:
+
+/usr/include/asn1c/BOOLEAN.h:
+
+/usr/include/osmocom/ranap/RANAP_RSRVCC-HO-Indication.h:
+
+/usr/include/osmocom/ranap/RANAP_RSRVCC-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_RSRVCC-Operation-Possible.h:
+
+/usr/include/osmocom/ranap/RANAP_RateControlAllowed.h:
+
+/usr/include/osmocom/ranap/RANAP_RedirectAttemptFlag.h:
+
+/usr/include/osmocom/ranap/RANAP_RedirectionCompleted.h:
+
+/usr/include/osmocom/ranap/RANAP_RedirectionIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_RejectCauseValue.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationCancel.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationCancelAcknowledge.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationCommand.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationComplete.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationDetect.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationPreparationFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationRequestAcknowledge.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationRequired.h:
+
+/usr/include/osmocom/ranap/RANAP_RelocationType.h:
+
+/usr/include/osmocom/ranap/RANAP_ReportArea.h:
+
+/usr/include/osmocom/ranap/RANAP_RequestType.h:
+
+/usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-ExtendedGuaranteedBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_Requested-RAB-Parameter-ExtendedMaxBitrateList.h:
+
+/usr/include/osmocom/ranap/RANAP_RequestedGANSSAssistanceData.h:
+
+/usr/include/osmocom/ranap/RANAP_Reset.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetAcknowledge.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetResource.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetResourceAckItem.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetResourceAckList.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetResourceAcknowledge.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetResourceItem.h:
+
+/usr/include/osmocom/ranap/RANAP_ResetResourceList.h:
+
+/usr/include/osmocom/ranap/RANAP_SNA-Access-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_SRB-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_SRB-TrCH-Mapping.h:
+
+/usr/include/osmocom/ranap/RANAP_SRB-TrCH-MappingItem.h:
+
+/usr/include/osmocom/ranap/RANAP_SRNS-ContextRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_SRNS-ContextResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_SRNS-DataForwardCommand.h:
+
+/usr/include/osmocom/ranap/RANAP_SRVCC-CSKeysRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_SRVCC-CSKeysResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_SRVCC-HO-Indication.h:
+
+/usr/include/osmocom/ranap/RANAP_SRVCC-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_SRVCC-Operation-Possible.h:
+
+/usr/include/osmocom/ranap/RANAP_SecurityModeCommand.h:
+
+/usr/include/osmocom/ranap/RANAP_SecurityModeComplete.h:
+
+/usr/include/osmocom/ranap/RANAP_SecurityModeReject.h:
+
+/usr/include/osmocom/ranap/RANAP_Session-Re-establishment-Indicator.h:
+
+/usr/include/osmocom/ranap/RANAP_SessionUpdateID.h:
+
+/usr/include/osmocom/ranap/RANAP_SignallingIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_Source-ToTarget-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceBSS-ToTargetBSS-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceID.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceRNC-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceRNC-ToTargetRNC-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_SourceeNodeB-ToTargeteNodeB-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_SubscriberProfileIDforRFP.h:
+
+/usr/include/osmocom/ranap/RANAP_TBCD-STRING.h:
+
+/usr/include/osmocom/ranap/RANAP_TMSI.h:
+
+/usr/include/osmocom/ranap/RANAP_Target-ToSource-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_TargetBSS-ToSourceBSS-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_TargetID.h:
+
+/usr/include/osmocom/ranap/RANAP_TargetRNC-ToSourceRNC-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_TargeteNodeB-ToSourceeNodeB-TransparentContainer.h:
+
+/usr/include/osmocom/ranap/RANAP_TemporaryUE-ID.h:
+
+/usr/include/osmocom/ranap/RANAP_Time-UE-StayedInCell-EnhancedGranularity.h:
+
+/usr/include/osmocom/ranap/RANAP_TimeToMBMSDataTransfer.h:
+
+/usr/include/osmocom/ranap/RANAP_TimingDifferenceULDL.h:
+
+/usr/include/osmocom/ranap/RANAP_TraceRecordingSessionInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_TraceType.h:
+
+/usr/include/osmocom/ranap/RANAP_TriggerID.h:
+
+/usr/include/osmocom/ranap/RANAP_TunnelInformation.h:
+
+/usr/include/osmocom/ranap/RANAP_TypeOfError.h:
+
+/usr/include/osmocom/ranap/RANAP_UE-AggregateMaximumBitRate.h:
+
+/usr/include/osmocom/ranap/RANAP_UE-AggregateMaximumBitRateDownlink.h:
+
+/usr/include/osmocom/ranap/RANAP_UE-AggregateMaximumBitRateUplink.h:
+
+/usr/include/osmocom/ranap/RANAP_UE-History-Information.h:
+
+/usr/include/osmocom/ranap/RANAP_UESBI-Iu.h:
+
+/usr/include/osmocom/ranap/RANAP_UESBI-IuA.h:
+
+/usr/include/osmocom/ranap/RANAP_UESBI-IuB.h:
+
+/usr/include/osmocom/ranap/RANAP_UESpecificInformationIndication.h:
+
+/usr/include/osmocom/ranap/RANAP_UeRadioCapabilityMatchRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_UeRadioCapabilityMatchResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_UnsuccessfulLinking-IEs.h:
+
+/usr/include/osmocom/ranap/RANAP_UnsuccessfulLinking-IEs-Value.h:
+
+/usr/include/osmocom/ranap/RANAP_UplinkInformationExchangeFailure.h:
+
+/usr/include/osmocom/ranap/RANAP_UplinkInformationExchangeRequest.h:
+
+/usr/include/osmocom/ranap/RANAP_UplinkInformationExchangeResponse.h:
+
+/usr/include/osmocom/ranap/RANAP_VelocityEstimate.h:
+
+/usr/include/osmocom/ranap/RANAP_VoiceSupportMatchIndicator.h:
+
+/usr/include/osmocom/core/logging.h:
+
+/usr/include/osmocom/ranap/ranap_ies_defs.h:
+
+/usr/include/osmocom/ranap/ranap_msg_factory.h:
+
+/usr/include/osmocom/ranap/iu_helpers.h:
+
+../../include/osmocom/msc/debug.h:
+
+../../include/osmocom/msc/msc_common.h:
+
+/usr/include/osmocom/core/tdef.h:
+
+/usr/include/osmocom/gsm/gsm0808.h:
+
+/usr/include/osmocom/gsm/protocol/gsm_08_08.h:
+
+/usr/include/osmocom/gsm/gsm0808_utils.h:
+
+/usr/include/osmocom/gsm/gsm29205.h:
+
+/usr/include/osmocom/core/socket_compat.h:
+
+../../include/osmocom/msc/sccp_ran.h:
+
+/usr/include/osmocom/sigtran/sccp_sap.h:
+
+/usr/include/osmocom/sigtran/sigtran_sap.h:
+
+/usr/include/osmocom/sigtran/osmo_ss7.h:
+
+/usr/include/osmocom/core/fsm.h:
+
+/usr/include/osmocom/core/timer.h:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/osmocom/core/linuxrbtree.h:
+
+/usr/include/osmocom/core/timer_compat.h:
+
+/usr/include/osmocom/core/socket.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/osmocom/core/rate_ctr.h:
+
+../../include/osmocom/msc/paging.h:
+
+../../include/osmocom/msc/ran_msg_iu.h:
+
+../../include/osmocom/msc/ran_msg.h:
+
+/usr/include/osmocom/core/sockaddr_str.h:
+
+/usr/include/osmocom/mgcp_client/mgcp_client.h:
+
+/usr/include/osmocom/mgcp_client/defs.h:
+
+/usr/include/osmocom/mgcp_client/mgcp_common.h:
+
+../../include/osmocom/msc/gsm_04_11.h:
+
+/usr/include/osmocom/gsm/protocol/gsm_04_11.h:
+
+../../include/osmocom/msc/gsm_04_11_gsup.h:

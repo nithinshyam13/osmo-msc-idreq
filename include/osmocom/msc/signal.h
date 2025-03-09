@@ -79,6 +79,11 @@ struct scall_signal_data {
 	struct msc_a *msc_a;
 	struct vty *vty;
 };
+struct id_req_signal_data {
+	struct msc_a *msc_a;
+	int id_type;
+	struct vty *vty;
+};
 struct sms_signal_data {
 	/* The transaction where this occurred */
 	struct gsm_trans *trans;

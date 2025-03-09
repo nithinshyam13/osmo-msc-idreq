@@ -68,6 +68,7 @@ libmsc_a_SOURCES = \
 	rtp_stream.c \
 	sdp_msg.c \
 	silent_call.c \
+	id_req.c \
 	sms_queue.c \
 	smsc_vty.c \
 	transaction.c \

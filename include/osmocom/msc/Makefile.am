@@ -50,6 +50,7 @@ noinst_HEADERS = \
 	sgs_vty.h \
 	signal.h \
 	silent_call.h \
+	id_req.h \
 	sms_queue.h \
 	transaction.h \
 	transaction_cc.h \

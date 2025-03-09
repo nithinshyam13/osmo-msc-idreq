@@ -54,6 +54,7 @@ struct vgcs_bss_cell;
 #define MSC_A_USE_SMS_MMTS	"sms_mmts"
 #define MSC_A_USE_NC_SS		"nc_ss"
 #define MSC_A_USE_SILENT_CALL	"silent_call"
+#define MSC_A_USE_ID_REQ	"id_req"
 
 /* These are macros to use the source file:line information from the caller in a trivial way */
 #define msc_a_get(msc_a, use) \

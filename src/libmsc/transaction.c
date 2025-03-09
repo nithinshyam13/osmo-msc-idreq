@@ -29,6 +29,7 @@
 #include <osmocom/msc/msub.h>
 #include <osmocom/msc/paging.h>
 #include <osmocom/msc/silent_call.h>
+#include <osmocom/msc/id_req.h>
 #include <osmocom/msc/msc_vgcs.h>
 
 void *tall_trans_ctx;
@@ -266,6 +267,10 @@ void trans_free(struct gsm_trans *trans)
 		trans_silent_call_free(trans);
 		usage_token = MSC_A_USE_SILENT_CALL;
 		break;
+	case TRANS_ID_REQ:
+		trans_id_req_free(trans);
+		usage_token = MSC_A_USE_ID_REQ;
+		break;
 	default:
 		usage_token = NULL;
 		break;
@@ -367,6 +372,7 @@ const struct value_string trans_type_names[] = {
 	{ TRANS_SMS, "SMS" },
 	{ TRANS_USSD, "NCSS" },
 	{ TRANS_SILENT_CALL, "silent-call" },
+	{ TRANS_ID_REQ, "id-req" },
 	{}
 };
 
@@ -380,6 +386,8 @@ uint8_t trans_type_to_gsm48_proto(enum trans_type type)
 	case TRANS_CC:
 	case TRANS_SILENT_CALL:
 		return GSM48_PDISC_CC;
+	case TRANS_ID_REQ:
+		return GSM48_PDISC_MM;
 	case TRANS_SMS:
 		return GSM48_PDISC_SMS;
 	case TRANS_USSD:
